@@ -1,0 +1,55 @@
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styling with highlight effect */
+.logo a {
+  font-size: 1.8rem; /* Slightly reduced font size */
+  font-weight: 700; /* Bold font */
+  font-family: 'Georgia', serif; /* Elegant serif font */
+  color: #ffcc00; /* Bright cinematic color */
+  text-decoration: none; /* Remove underline */
+  text-transform: uppercase; /* Capitalize all letters */
+  letter-spacing: 1.5px; /* Slightly reduced spacing between letters */
+  padding: 5px 8px; /* Adjusted padding */
+  border: 2px solid #ffcc00; /* Slightly thinner border */
+  border-radius: 5px; /* Subtle rounded corners */
+  background-color: #222; /* Dark background to contrast */
+}
+
+/* Navigation links styling */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 15px; /* Slightly reduced gap for a compact look */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  font-size: 1rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+/* Active tab styling */
+.active-tab a {
+  color: #ffcc00;
+  font-weight: 600;
+  border-bottom: 2px solid #ffcc00; /* Underline active tab */
+}

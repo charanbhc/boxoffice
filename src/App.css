@@ -1,0 +1,163 @@
+/* Styling for the overall application */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1e1e1e; 
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.header-bar {
+  background-color: rgba(249, 191, 11, 1); 
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between; /* Balanced alignment */
+  align-items: center;
+  font-family: 'News Font', sans-serif; 
+  position: relative;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+nav .nav-block a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transitions */
+}
+
+nav .nav-block a:hover {
+  color: #1e1e1e; 
+  background-color: rgba(255, 255, 255, 0.8); /* Highlight on hover */
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+nav .nav-block a.active {
+  color: #1e1e1e; 
+  background-color: rgba(249, 191, 11, 0.8); 
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.image-container img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 10px; 
+  object-fit: cover; 
+}
+
+.news-section {
+  padding: 2rem 1rem;
+}
+
+.news-block-container {
+  display: flex;
+  justify-content: center; /* Centered layout for uniformity */
+  gap: 0.5rem; /* Reduced gap for compact layout */
+  flex-wrap: wrap; 
+}
+
+.news-block {
+  background-color: #2a2a2a; 
+  margin: 0.5rem; 
+  padding: 0.75rem; /* Compact padding */
+  border-radius: 8px; /* Smoothed edges */
+  flex: 1 1 calc(20% - 0.5rem); /* Smaller size for five-column layout */
+  box-sizing: border-box; /* Consistent padding and spacing */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Enhanced animation */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Depth effect */
+}
+
+.news-block:hover {
+  transform: scale(1.03); /* Subtle zoom on hover */
+  box-shadow: 0 4px 15px rgba(249, 191, 11, 0.7); /* Highlighted glow */
+}
+
+.news-block h3 {
+  color: #f9bf0b; 
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem; /* Compact font size */
+}
+
+.aligned-text {
+  text-align: justify;
+  text-indent: 1em;
+}
+
+.news-block p {
+  color: white;
+  text-indent: 1em; /* Indents content for readability */
+  margin: 0.4rem 0;
+  font-size: 0.9rem; /* Smaller text size */
+}
+
+.news-block img {
+  width: 100%; 
+  height: 150px; /* Smaller image height */
+  object-fit: cover; 
+  border-radius: 5px; 
+}
+
+@media (max-width: 1024px) {
+  .news-block {
+    flex: 1 1 calc(25% - 0.5rem); /* Adjust to four columns */
+  }
+}
+
+@media (max-width: 768px) {
+  .news-block {
+    flex: 1 1 calc(33.33% - 0.5rem); /* Adjust to three columns */
+  }
+}
+
+@media (max-width: 480px) {
+  .news-block {
+    flex: 1 1 calc(50% - 0.5rem); /* Adjust to two columns */
+  }
+
+  nav {
+    flex-direction: column; /* Stacks navigation items */
+    gap: 0.5rem;
+  }
+
+  .header-bar {
+    flex-wrap: wrap; /* Makes the header adaptive */
+    text-align: center; 
+  }
+}
+.scrolling-titles {
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: rgba(249, 191, 11, 1); /* Background color for visibility */
+  color: #1e1e1e; /* Contrast color for text */
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+.scrolling-titles span {
+  display: inline-block;
+  padding-left: 100%; /* Starts the text outside the view */
+  animation: scroll-text 15s linear infinite; /* Adjust speed and repeat */
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
