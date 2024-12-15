@@ -30,7 +30,7 @@ function App() {
 
             <div className="news-block light-effect">
               <img 
-                src="https://img.etimg.com/thumb/width-1600,height-900,imgsize-56268,resizemode-75,msid-109568629/magazines/panache/pushpa-2-1st-single-pushpa-pushpa-will-be-out-on-this-date.jpg" 
+                src="https://pbs.twimg.com/media/Ge1EB-6b0AAW_IG?format=png&name=900x900" 
                 alt="Allu Arjun Arrested" 
               />
               <h3>Allu Arjun Arrested</h3>
