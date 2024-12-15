@@ -33,12 +33,8 @@ function App() {
                 src="https://pbs.twimg.com/media/Ge1EB-6b0AAW_IG?format=png&name=900x900" 
                 alt="Allu Arjun Arrested" 
               />
-              <h3>Allu Arjun Arrested</h3>
-              <p>Icon Star 
-@alluarjun
- along with his family met Megastar 
-@KChiruTweets
- garu at his residence this afternoon!</p>
+              <h3>మెగాస్టార్ ఇంట్లో అల్లు అర్జున్... </h3>
+              <p>Icon Star చాలా కాలం తరువాత #Pushpa2 షర్ట్స్ లో కాకుండా నార్మల్ గా కనిపించిన బన్నీ... అయితే ఈ సారి విజయ్ దేవరకొండ రౌడీ బ్రాండ్ </p>
             </div>
 
             <div className="news-block light-effect">
@@ -54,7 +50,11 @@ function App() {
         </section>
 
         <div className="scrolling-titles">
-          <span>Breaking News: Latest Updates in Business and Finance! | New Startup Innovations Lead the Market | Stay Ahead with Market Trends!</span>
+          <span>Naga Vamsi on board for Akhil Akkineni
+
+సితార, నాగార్జున ‘మనం ఎంటర్టైన్మెంట్స్’కలిసి #Akhil6 నిర్మించబోతున్నారు
+
+చిత్తూరు జిల్లాలో రెండు గ్రామాల మధ్య జరిగే కథ... </span>
         </div>
       </main>
     </div>
