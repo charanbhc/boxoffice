@@ -12,6 +12,7 @@ function App() {
         <div className="image-container">
           <img 
             src="https://pbs.twimg.com/media/Geu1cMwbsAEWmBO?format=jpg&name=900x900" 
+            // src="https://pbs.twimg.com/media/Ge53bWobUAAZdKn?format=jpg&name=medium"
             alt="Telugu Box Office" 
           />
         </div>

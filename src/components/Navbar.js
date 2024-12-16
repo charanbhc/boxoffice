@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 import './Navbar.css';
 
 function Navbar() {
@@ -8,7 +9,9 @@ function Navbar() {
     <div>
       <nav className="navbar">
         <div className="logo">
-          <a href="/">Telugu BOX OFFICE</a>
+          <Link to="/" onClick={() => setActiveTab('Home')}>
+            Telugu BOX OFFICE
+          </Link>
         </div>
         <ul className="nav-links">
           {['Home', 'Movies', 'News', 'Contact'].map((tab) => (
@@ -17,7 +20,9 @@ function Navbar() {
               className={activeTab === tab ? 'active-tab' : ''}
               onClick={() => setActiveTab(tab)}
             >
-              <a href={`#${tab.toLowerCase()}`}>{tab}</a>
+              <Link to={tab === 'Home' ? '/' : `/${tab.toLowerCase()}`}>
+                {tab}
+              </Link>
             </li>
           ))}
         </ul>
