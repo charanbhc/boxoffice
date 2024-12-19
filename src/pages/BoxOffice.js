@@ -255,7 +255,7 @@ function BoxOffice() {
         {selectedCategory && (
           <div className="records-table">
             <h2>{selectedCategory}</h2>
-            <p>* Non BB or BB2 or RRR</p>
+            <p>Box Office data is compiled from various sources.</p>
             <table>
               <thead>
                 <tr>
