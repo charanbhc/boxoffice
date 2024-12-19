@@ -21,7 +21,7 @@ function Movies() {
       "SRIMANTUDU * 2015 --cr",
       "SARDAR GABBAR SINGH * 2016 21cr",
       "KAIDHI 150 * 2017 23cr",
-      "JAI LAVA KUSA * GST issue 2017 21cr",
+      "JAI LAVA KUSA * GST issue 2017 22cr",
       "BAAHUBALI 2 2017 43cr",
       "AGNATHAVASI * 2018 26.4cr",
       "ARAVINDA SAMETHA * 2018 26.6cr",
