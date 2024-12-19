@@ -187,6 +187,36 @@ function BoxOffice() {
       "Jai Lava Kusa 2017 46.80CR",
       "Rangasthalam 2018 45.10CR"
     ],
+    "Overseas Premier Shows Highest Grossers": [
+      "Kalki 2898 AD 2024 $3.90M($33~)",
+      "RRR 2022 $3.46M($28)",
+      "Pushpa 2 The Rule 2024 $3.34M($30~)",
+      "Devara Part 1 2024 $2.83M($30~)",
+      "Salaar 2024 $2.60M($25)",
+      "Baahubali2 2017 $2.45M($28)",
+      "Agnyaathavaasi 2018 $1.52M($25)",
+      "Guntur Kaaram 2024 $1.4M($20~)",
+      "Baahubali 2015 $1.36M($25)",
+      "Khaidi No 150 2017 $1.29M($25)",
+      "Spyder 2017 $1.1M($25)",
+      "Sarkaru Vaari Paata 2022 $952K($25)",
+      "Saaho 2019 $923K($28)",
+      "Bheemla Nayak 2022 $875K($25)",
+      "Radhe Shyam 2022 $875K($25)",
+      "Bharat Ane Nenu 2018 $850K($20)",
+      "Sye Raa Narasimha Reddy 2019 $857K($27)",
+      "Adi Purush 2023 $825K($22)",
+      "Ala Vaikunthapurramuloo 2020 $806K($14)",
+      "Aravindha Sametha 2018 $798K($20)",
+      "Sarileru Neekevvaru 2020 $760K($20)",
+      "Veera Simha Reddy 2023 $708K($20)",
+      "Rangasthalam 2018 $700K($20)",
+      "Waltair Veerayya 2023 $679K($20)",
+      "Acharya 2022 $650K($20)",
+      "BRO The Avatar 2023 $647K($20)",
+      "Sardar Gabbar Singh 2016 $610K($25)",
+      "Jai Lava Kusa 2017 $590K($18)"
+    ]
     
     
     
