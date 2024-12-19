@@ -14,7 +14,7 @@ function Navbar() {
           </Link>
         </div>
         <ul className="nav-links">
-          {['Home', 'Movies', 'News', 'Contact'].map((tab) => (
+          {['Home', 'BoxOffice', 'News', 'Contact'].map((tab) => (
             <li
               key={tab}
               className={activeTab === tab ? 'active-tab' : ''}

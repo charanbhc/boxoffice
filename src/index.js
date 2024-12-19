@@ -7,7 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
-import Movies from './pages/Movies';
+import BoxOffice from './pages/BoxOffice';
 
 const router = createBrowserRouter([
   {
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     element: <App />,
   },
   {
-    path: "movies",
-    element: <Movies />,
+    path: "BoxOffice",
+    element: <BoxOffice />,
   },
 ]);
 
