@@ -10,7 +10,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="logo">
           <Link to="/" onClick={() => setActiveTab('Home')}>
-            Telugu BOX OFFICE
+            Telugu BO
           </Link>
         </div>
         <ul className="nav-links">
