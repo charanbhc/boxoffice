@@ -6,7 +6,7 @@ function BoxOffice() {
   const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
 
   const categories = {
-    "Day 1 APTG - 2011": [
+    "Day 1 APTG Since 2011": [
       "DOOKUDU 2011 --cr",
       "OOSARAVALLI 2011 --cr",
       "BUSINESSMAN 2012 --cr",
@@ -216,10 +216,61 @@ function BoxOffice() {
       "BRO The Avatar 2023 $647K($20)",
       "Sardar Gabbar Singh 2016 $610K($25)",
       "Jai Lava Kusa 2017 $590K($18)"
+    ], 
+    "Bollywood Highest 1st Day Collection Movies":[
+      "Pushpa: The Rule - Part 2 2024 70.3CR",
+"Jawan 2023 65.5CR",
+"Pathaan 2023 55CR",
+"Animal 2023 54.75CR",
+"KGF Chapter 2 2022 53.95CR",
+"Stree 2 2024 51.8CR",
+"War 2019 51.6CR",
+"Thugs Of Hindostan 2018 50.75CR",
+"Singham Again 2024 43.5CR",
+"Tiger 3 2023 43CR",
+"Happy New Year 2014 42.62CR",
+"Bharat 2019 42.3CR",
+"Baahubali 2 The Conclusion 2017 41CR",
+"Prem Ratan Dhan Payo 2015 40.35CR",
+"Gadar 2 2023 40.1CR",
+"Adipurush 2023 37.25CR",
+"Sultan 2016 36.54CR",
+"Bhool Bhulaiyaa 3 2024 35.5CR",
+"Sanju 2018 34.75CR",
+"Tiger Zinda Hai 2017 34.1CR",
+"Dhoom 3 2013 33.42CR",
+"Chennai Express 2013 33.12CR",
+"Ek Tha Tiger 2012 32.93CR",
+"Singham Returns 2014 32.1CR",
+"Brahmastra Part One: Shiva 2022 32CR",
+"Golmaal Again 2017 30.14CR",
+"Dunki 2023 29.2CR",
+"Dangal 2016 29.19CR",
+"Race 3 2018 29.17CR",
+"Mission Mangal 2019 29.16CR",
+"Bajrangi Bhaijaan 2015 27.25CR",
+"PK 2014 26.63CR",
+"Kick 2014 26.4CR",
+"Sooryavanshi 2021 26.29CR",
+"Bang Bang! 2014 26.25CR",
+"Gold 2018 25.25CR",
+"Baaghi 2 2018 25.1CR",
+"Saaho 2019 24.4CR",
+"Krrish 3 2013 24CR",
+"Dabangg 3 2019 23CR",
+"Agneepath 2012 22.8CR",
+"Fighter 2024 22.5CR",
+"Kalki 2898 AD 2024 22.5CR",
+"Bodyguard 2011 21.6CR",
+"Kalank 2019 21.6CR",
+"Besharam 2013 21.55CR",
+"M.S. Dhoni: The Untold Story 2016 21.4CR",
+"Tubelight 2017 21.15CR",
+"Dabangg 2 2012 21.1CR",
+"Kesari 2019 21.06CR",
+
     ]
-    
-    
-    
+   
 
   };
 

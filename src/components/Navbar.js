@@ -10,11 +10,11 @@ function Navbar() {
       <nav className="navbar">
         <div className="logo">
           <Link to="/" onClick={() => setActiveTab('Home')}>
-            Telugu BO
+            TELUGU BO 
           </Link>
         </div>
         <ul className="nav-links">
-          {['Home', 'BoxOffice', 'News', 'Contact'].map((tab) => (
+          {['Home', 'BoxOffice', 'Trend', 'Contact'].map((tab) => (
             <li
               key={tab}
               className={activeTab === tab ? 'active-tab' : ''}
