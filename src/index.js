@@ -9,6 +9,7 @@ import {
 import App from './App';
 import BoxOffice from './pages/BoxOffice';
 import APTG from './pages/APTG';
+import ATRDay1 from './pages/ATRDay1';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
     path: "APTG",
     element: <APTG />,
   },
+  {
+    path: "ATRDay1",
+    element: <ATRDay1 />,
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
