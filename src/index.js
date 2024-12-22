@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import App from './App';
 import BoxOffice from './pages/BoxOffice';
-import Trend from './pages/Trend';
+import APTG from './pages/APTG';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <BoxOffice />,
   },
   {
-    path: "Trend",
-    element: <Trend />,
+    path: "APTG",
+    element: <APTG />,
   },
 ]);
 

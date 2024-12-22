@@ -32,7 +32,7 @@ function BoxOffice() {
       "DEVARA * 2024 61cr",
       "PUSHPA 2 * 2024 69cr",
     ],
-    "APTG Top Share Movies Day 1": [ 
+    "APTG All Time Top Share Movies Day 1": [ 
       "RRR 2022 74cr",
       "Pushpa 2 The Rule 2024 70.81CR",
       "Devara 2024 61.65CR",

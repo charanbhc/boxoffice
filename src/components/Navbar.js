@@ -1,27 +1,32 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link, useLocation } from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
-  const [activeTab, setActiveTab] = useState('Home'); // State to track active tab
+  const location = useLocation();
+  const [activeTab, setActiveTab] = useState(location.pathname);
+
+  const handleTabClick = (tabPath) => {
+    setActiveTab(tabPath);
+  };
 
   return (
     <div>
       <nav className="navbar">
         <div className="logo">
-          <Link to="/" onClick={() => setActiveTab('Home')}>
-            TELUGU BO 
+          <Link to="/" onClick={() => handleTabClick('/')}>
+            TELUGU BO
           </Link>
         </div>
         <ul className="nav-links">
-          {['Home', 'BoxOffice', 'Trend', 'Contact'].map((tab) => (
+          {['/', '/boxoffice', '/aptg', '/contact'].map((path, index) => (
             <li
-              key={tab}
-              className={activeTab === tab ? 'active-tab' : ''}
-              onClick={() => setActiveTab(tab)}
+              key={path}
+              className={activeTab === path ? 'active-tab' : ''}
+              onClick={() => handleTabClick(path)}
             >
-              <Link to={tab === 'Home' ? '/' : `/${tab.toLowerCase()}`}>
-                {tab}
+              <Link to={path}>
+                {['Home', 'BoxOffice', 'APTG Area', 'Contact'][index]}
               </Link>
             </li>
           ))}
