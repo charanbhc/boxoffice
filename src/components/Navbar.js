@@ -15,7 +15,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="logo">
           <Link to="/" onClick={() => handleTabClick('/')}>
-            TELUGU BO
+            LOVE CINEMAA
           </Link>
         </div>
         <ul className="nav-links">
