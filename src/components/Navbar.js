@@ -19,14 +19,14 @@ function Navbar() {
           </Link>
         </div>
         <ul className="nav-links">
-          {['/', '/boxoffice', '/aptg', '/ATRDay1'].map((path, index) => (
+          {['/', '/boxoffice', '/aptg', '/ATRDay1','/Day1','/PreReleaseBusiness'].map((path, index) => (
             <li
               key={path}
               className={activeTab === path ? 'active-tab' : ''}
               onClick={() => handleTabClick(path)}
             >
               <Link to={path}>
-                {['Home', 'BoxOffice', 'APTG Town Records', 'ATR Teritory'][index]}
+                {['Home', 'BoxOffice', 'APTG Town Records', 'ATR Teritory','Day 1','Pre-Release Business'][index]}
               </Link>
             </li>
           ))}

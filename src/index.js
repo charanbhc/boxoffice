@@ -10,6 +10,8 @@ import App from './App';
 import BoxOffice from './pages/BoxOffice';
 import APTG from './pages/APTG';
 import ATRDay1 from './pages/ATRDay1';
+import Day1 from './pages/Day1';
+import PreReleaseBusiness from './pages/PreReleaseBusiness';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -26,6 +28,14 @@ const router = createBrowserRouter([
   {
     path: "ATRDay1",
     element: <ATRDay1 />,
+  },
+  {
+    path: "Day1",
+    element: <Day1 />,
+  },
+  {
+    path: "PreReleaseBusiness",
+    element: <PreReleaseBusiness />,
   }
 ]);
 
