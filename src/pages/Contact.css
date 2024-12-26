@@ -1,0 +1,16 @@
+.content-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #1e1e1e; 
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1em;
+    margin: 5px 0;
+  }
+  

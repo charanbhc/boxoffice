@@ -12,6 +12,8 @@ import APTG from './pages/APTG';
 import ATRDay1 from './pages/ATRDay1';
 import Day1 from './pages/Day1';
 import PreReleaseBusiness from './pages/PreReleaseBusiness';
+import WW from './pages/WW';
+import Contact from './pages/Contact';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -36,6 +38,14 @@ const router = createBrowserRouter([
   {
     path: "PreReleaseBusiness",
     element: <PreReleaseBusiness />,
+  },
+  {
+    path: "WW",
+    element: <WW />,
+  },
+  {
+    path: "Contact",
+    element: <Contact />,
   }
 ]);
 
