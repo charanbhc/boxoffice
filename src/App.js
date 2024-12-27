@@ -98,7 +98,7 @@ function App() {
         </section>
 
         <div className="scrolling-titles">
-          <span>The blockbuster, star-studded #GameChangerGlobalEvent that took Dallas by storm is coming to you!. Catch the #GameChanger Mega MASS'ive Pre-Release Event telecast on @ZeeTVTelugu at 4 PM this Saturday! Don't miss it!</span>
+          <span>Naveen Polishetty is a “Star Entertainer” for sure. Pre wedding video of #AnaganagaOkaRaju is hilarious bringing forth the amazing comic timing of the actor.</span>
         </div>
       </main>
     </div>
