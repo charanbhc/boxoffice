@@ -603,7 +603,6 @@ function BoxOffice() {
       "Murari4K  32L",
       "Indra4K  30L~"
     ],
-   
     "South India's All Time Highest Grossers": [
       "Baahubali2  1810CR",
       "Pushpa2TheRule  1301CR",
