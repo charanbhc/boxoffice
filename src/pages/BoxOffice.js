@@ -169,7 +169,7 @@ function BoxOffice() {
       "#KhaidiNo150 19.60Cr"
     ],
 
-    "Worldwide Top Share Movies Day 1":[
+    "WW Top Share Movies Day 1":[
         "Pushpa 2 The Rule 2024 160.01CR",
         "RRR 2022 135CR",
         "Baahubali2 2017 123C",
@@ -204,7 +204,7 @@ function BoxOffice() {
         "Sardar Gabbar Singh 2016 28.40CR",
         "Katamarayudu 2017 27.80C"
     ],
-    "Worldwide Day 1 World Wide Top Grossing Movies": [
+    "WW Day 1 World Wide Top Grossing Movies": [
       "Pushpa 2 The Rule 2024 285.55CR",
       "RRR 2022 235CR",
       "Baahubali2 2017 215CR",
@@ -241,7 +241,7 @@ function BoxOffice() {
       "Katamarayudu 2017 39.30C",
       "Dasara 2023 38.40C"
     ],
-    "Worldwide Highest Share Movies (Telugu Version Only)": [
+    "WW Highest Share Movies (Telugu Version Only)": [
       "#RRRMovie 2022 371.41CR",
       "#Baahubali2 2017 320Cr",
       "#Pushpa2TheRule 2024 305.63CR~(21 Days)*****",
@@ -266,7 +266,7 @@ function BoxOffice() {
       "#BharathAneNenu 2018 101Cr"
     ],
 
-    "Worldwide All Time Highest Gross Movies (Telugu Version Only)": [
+    "WW All Time Highest Gross Movies (Telugu Version Only)": [
       "#RRRMovie 2022 600CR",
       "#Baahubali2 2017 560CR~",
       "#Kalki2898AD 2024 530CR",
@@ -292,7 +292,7 @@ function BoxOffice() {
       "#Khaidino150 2017 164.2Cr",
       "#Bheemla Nayak 2022 159.10CR"
     ],
-    "Worldwide All Time Highest Share Movies (Including All)": [
+    "WW All Time Highest Share Movies (Including All)": [
       "#Baahubali2 2017 860CR",
       "#Pushpa2TheRule 2024 767.29CR~(21 Days)*****",
       "#RRRMovie 2022 614.06CR",
@@ -316,7 +316,7 @@ function BoxOffice() {
       "#KGFChapter2 (Dub) 2022 103CR",
       "#BharathAneNenu 2018 101Cr"
     ],
-    "Worldwide All Time Highest Gross Movies (Including All)": [
+    "WW All Time Highest Gross Movies (Including All)": [
       "#Baahubali2 2017 1810CR",
       "#Pushpa2TheRule 2024 1596+CR~(21 Days)*****",
       "#RRRMovie 2022 1295.00CR",

@@ -34,7 +34,7 @@ function App() {
                 alt="2" 
               />
               <h3>HIGHEST GROSSER OF INDIAN CINEMA 2024</h3>
-              <p>Pushpa 2 is the FASTEST INDIAN FILM EVER to collect 1700cr WORLDWIDE in 21 days ❤️‍🔥</p>
+              <p>FASTEST INDIAN FILM EVER to collect 1700cr</p>
             </div>
 
             <div className="news-block light-effect">
