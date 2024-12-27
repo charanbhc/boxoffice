@@ -40,7 +40,7 @@ function APTG() {
       "Bheemla Nayak 2022 49.9L",
       "RRR 2022 89.96L"
     ],
-    "Nellore Area All Time Top 10 Share Movies": [
+    "Nellore Area All Time Top Shares": [
       "Baahubali 2 – 8.07Cr",
       "Ala Vaikunthapurramuloo – 4.72Cr",
       "Saaho – 4.45Cr",
@@ -63,7 +63,7 @@ function APTG() {
       "F2 – 2.10Cr",
       "KatamaRayudu – 2.08Cr"
     ],
-    "Guntur Area All Time Top 10 Share Movies": [
+    "Guntur Area All Time Top Shares": [
       "Baahubali 2 – 18.05Cr",
       "Ala Vaikunthapurramuloo – 11.18Cr",
       "Sarileru Neekevvaru – 10.03Cr",
@@ -85,7 +85,7 @@ function APTG() {
       "Magadheera – 5.12Cr",
       "KatamaRayudu – 4.95Cr"
     ],
-    "Krishna Area All Time Top 10 Share Movies": [
+    "Krishna Area All Time Top Shares": [
       "Baahubali 2 – 14.10Cr",
       "Ala Vaikunthapurramuloo – 10.79Cr",
       "Sarileru Neekevvaru – 8.96Cr",
@@ -107,7 +107,7 @@ function APTG() {
       "KatamaRayudu – 3.70Cr",
       "Magadheera – 3.63Cr"
     ],
-    "West All Time Top 10 Share Movies": [
+    "West All Time Top Share": [
       "Baahubali 2 – 12.38Cr",
       "Ala Vaikunthapurramuloo – 8.96Cr",
       "Sarileru Neekevvaru – 7.47Cr",
@@ -130,7 +130,7 @@ function APTG() {
       "JaiLavaKusa – 4.06Cr",
       "DJ – 4.05Cr"
     ],
-    "East All Time Top 10 Share Movies": [
+    "East All Time Top Share": [
       "Baahubali 2 – 17.10Cr",
       "Ala Vaikunthapurramuloo – 11.44Cr",
       "Sarileru Neekevvaru – 11.40Cr",
@@ -151,7 +151,7 @@ function APTG() {
       "Janatha Garage – 5.02Cr",
       "DJ – 4.85Cr"
     ],
-    "Vizag/Uttarandhra All Time Top 10 Share Movies": [
+    "Vizag/Uttarandhra All Time Top Shares": [
       "Baahubali 2 – 26.55Cr",
       "Ala Vaikunthapurramuloo – 19.93Cr",
       "Sarileru Neekevvaru – 19.92Cr",
