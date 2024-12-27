@@ -6,6 +6,46 @@ function PreReleaseBusiness() {
   const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
 
   const movieCollections = {
+
+    "Pre Release Business APTG": [
+      { region: "Pushpa 2 The Rule 2024", collections: "617CR" },
+      { region: "RRR Movie", collections: "451Cr" },
+      { region: "Kalki2898AD", collections: "370CR" },
+      { region: "Baahubali2", collections: "352cr" },
+      { region: "Salaar", collections: "345CR" },
+      { region: "Saaho", collections: "270cr" },
+      { region: "ADIPURUSH", collections: "240CR" },
+      { region: "Radhe Shyam", collections: "202.80Cr" },
+      { region: "SyeRaa Narasimha Reddy", collections: "187.25Cr" },
+      { region: "Devara Part 1", collections: "182.55CR" },
+      { region: "Pushpa Part 1", collections: "144.9CR" },
+      { region: "GunturKaaram", collections: "132.00CR" },
+      { region: "Acharya", collections: "131.20CR" },
+      { region: "SPYder", collections: "124.3cr+" },
+      { region: "Agnyaathavaasi", collections: "123.6cr" },
+      { region: "Sarkaru Vaari Paata", collections: "120CR" },
+      { region: "Baahubali1", collections: "118cr" },
+      { region: "Bheemla Nayak", collections: "106.75Cr" },
+      { region: "Maharshi", collections: "100CR" },
+      { region: "BharatAneNenu", collections: "100cr" },
+      { region: "Sarileru Neekevvaru", collections: "99.30Cr" },
+      { region: "BRO THE MOVIE", collections: "97.50CR" },
+      { region: "Aravindha Sametha", collections: "91cr" },
+      { region: "God Father", collections: "91CR/73Cr(Team)" },
+      { region: "Vinaya Vidheya Rama", collections: "90cr" },
+      { region: "VakeelSaab", collections: "89.35Cr" },
+      { region: "KhaidiNo150", collections: "89Cr" },
+      { region: "LIGER", collections: "88.40CR" },
+      { region: "Waltair Veerayya", collections: "88CR" },
+      { region: "Sardar Gabbar Singh", collections: "87.7cr" },
+      { region: "JaiLavaKusa", collections: "86Cr" },
+      { region: "KaatamaRayudu", collections: "84.5cr" },
+      { region: "Ala Vaikunthapurramuloo", collections: "84.34Cr" },
+      { region: "Rangasthalam", collections: "80Cr" },
+      { region: "Bhola Shankar", collections: "79.60Cr" },
+      { region: "DJ- Duvvada Jagannatham", collections: "79Cr+" },
+      { region: "Veera Simha Reddy", collections: "73CR" },
+    ],
     RRR: [
       { region: "Nizam", collections: "70Cr" },
       { region: "Ceeded", collections: "37Cr" },
@@ -188,3 +228,4 @@ function PreReleaseBusiness() {
 }
 
 export default PreReleaseBusiness;
+
