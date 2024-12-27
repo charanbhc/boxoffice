@@ -393,10 +393,7 @@ function BoxOffice() {
       "KhaidiNo150 2017 164.2Cr",
       "BheemlaNayak 2022 159.10CR"
     ],
-    
-   
-
-
+  
     "Pre Release Business Movies": [
       "Pushpa 2 The Rule 2024 617CR",
       "RRR Movie 2022 451Cr",
@@ -577,25 +574,25 @@ function BoxOffice() {
       "ChennakeshavaReddy  64L"
     ],
     "Re-Release Day 1 Nizam": [
-      "#Murari4K  2.93Cr~",
-      "#GabbarSingh4K   2.52CR~",
-      "#BusinessMan4K   2.46Cr",
-      "#Kushi  1.65CR",
-      "#Jalsa   1.26Cr",
-      "#Indra4K  1.08CR",
-      "#Simhadri4K  1.06Cr",
-      "#Okkadu  90L",
-      "#EeNagaranikiEmaindi  81L~",
-      "#Orange  75L~",
-      "#OYE4K   75L~",
-      "#Pokiri  69L",
-      "#Desamuduru  68L~",
-      "#3Movie4K  64L~",
-      "#Billa   51L",
-      "#SuryaSonOfKrishnan  50L~",
-      "#7/G Brindavana Colony   46L~",
-      "#TholiPrema4K   41L",
-      "#ChennakeshavaReddy  21L"
+      "Murari4K  2.93Cr~",
+      "GabbarSingh4K   2.52CR~",
+      "BusinessMan4K   2.46Cr",
+      "Kushi  1.65CR",
+      "Jalsa   1.26Cr",
+      "Indra4K  1.08CR",
+      "Simhadri4K  1.06Cr",
+      "Okkadu  90L",
+      "EeNagaranikiEmaindi  81L~",
+      "Orange  75L~",
+      "OYE4K   75L~",
+      "Pokiri  69L",
+      "Desamuduru  68L~",
+      "3Movie4K  64L~",
+      "Billa   51L",
+      "SuryaSonOfKrishnan  50L~",
+      "7/G Brindavana Colony   46L~",
+      "TholiPrema4K   41L",
+      "ChennakeshavaReddy  21L"
     ],
     "Re-Release Day 1 Ceeded": [
       "GabbarSingh4K   81L~",
