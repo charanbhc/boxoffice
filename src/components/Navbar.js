@@ -15,18 +15,18 @@ function Navbar() {
       <nav className="navbar">
         <div className="logo">
           <Link to="/" onClick={() => handleTabClick('/')}>
-            LOVE CINEMAA
+           తెలుగు CINEMA 
           </Link>
         </div>
         <ul className="nav-links">
-          {['/', '/boxoffice', '/aptg', '/ATRDay1','/PreReleaseBusiness','/Day1','/WW','/Contact'].map((path, index) => (
+          {['/', '/boxoffice', '/aptg', '/ATRDay1','/PreReleaseBusiness','/Day1','/WW'].map((path, index) => (
             <li
               key={path}
               className={activeTab === path ? 'active-tab' : ''}
               onClick={() => handleTabClick(path)}
             >
               <Link to={path}>
-                {['Home', 'BoxOffice', 'APTG Town Records', 'ATR Teritory','Pre-Release Business','Day 1','WW','Contact'][index]}
+                {['Home', 'BoxOffice', 'APTG Town Records', 'ATR Teritory','Pre-Release Business','Day 1','WW'][index]}
               </Link>
             </li>
           ))}
