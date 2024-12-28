@@ -8,14 +8,15 @@ function ATRDay1() {
   const heroRecords = {
     
     "Mahesh Babu": {
-      "Nizam": ["Dookudu", "Businessman", "Aagadu"],
-      "UA": ["Dookudu", "Businessman", "SLN"],
+      "Nizam": ["Athidhi", "Dookudu", "Businessman", "Aagadu"],
+      "UA": ["Dookudu", "Businessman"],
       "Ceeded": [],
-      "Krishna": ["Dookudu", "Businessman"],
-      "Guntur": ["Dookudu", "Businessman", "Aagadu"],
+      "Krishna": ["Dookudu", "Businessman", "Sarileru Neekevvaru"],
+      "Guntur": ["Athidhi","Dookudu", "Businessman", "Aagadu"],
       "Nellore": [],
-      "East": ["Dookudu", "Businessman", "Seethamma Vakitlo Sirimalle Chettu","1 Nenokkadine"],
-      "West": ["Dookudu", "Businessman", "Aagadu"]
+      "East": ["Khaleja","Dookudu", "Businessman", "Seethamma Vakitlo Sirimalle Chettu","1 Nenokkadine","Aagadu",],
+      "West": ["Khaleja","Dookudu", "Businessman", "Aagadu"],
+      "OS": ["Khaleja","Dookudu", "Businessman", "Aagadu"]
     },
     "NTR": {
       "Nizam": ["Oosaravelli", "RRR"],
