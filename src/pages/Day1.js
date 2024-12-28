@@ -105,7 +105,211 @@ function Day1() {
       { region: "Hindi+ROI", collections: "36.40Cr (81.60Cr~ Gross)" },
       { region: "OS", collections: "32.00Cr (67.05Cr~ Gross)***Approx" },
       { region: "Total WW Collections", collections: "160.01CR (Gross- 285.55CR~)" }
-    ]
+    ],
+    "Sarkaru Vaari Paata": [
+      { "region": "Nizam", "collections": "12.24Cr" },
+      { "region": "Ceeded", "collections": "4.70Cr (1.40Cr Hires)" },
+      { "region": "UA", "collections": "3.74Cr (31L~ Hires, MGS)" },
+      { "region": "East", "collections": "3.25Cr (80L~ Hires)" },
+      { "region": "West", "collections": "2.74Cr (1.3Cr~ Hires)" },
+      { "region": "Guntur", "collections": "5.83Cr (3.55Cr Hires, MGS)" },
+      { "region": "Krishna", "collections": "1.95Cr (31L Hires)" },
+      { "region": "Nellore", "collections": "1.56Cr (34L Hires)" },
+      { 
+        "region": "AP-TG Total", 
+        "collections": "36.01Cr (50.10Cr~ Gross)(8.01Cr Hires, MGS)" 
+      },
+      { "region": "KA+ROI", "collections": "2.70Cr" },
+      { "region": "OS", "collections": "6.50Cr" },
+      { 
+        "region": "Total WW Collections", 
+        "collections": "45.21Cr (70CR~ Gross)" 
+      }
+    ],
+    "Sarileru Neekevvaru": [
+      { "region": "Nizam", "collections": "8.67Cr" },
+      { "region": "Ceeded", "collections": "4.15Cr (45L Hires)" },
+      { "region": "UA", "collections": "4.40Cr" },
+      { "region": "East", "collections": "3.35Cr (90L Hires)" },
+      { "region": "West", "collections": "2.72Cr (1.15Cr Hires)" },
+      { "region": "Guntur", "collections": "5.14Cr (3.95Cr Inc. Hires, SG, MG)" },
+      { "region": "Krishna", "collections": "3.07Cr (65L Inc. Hires, SG, MG)" },
+      { "region": "Nellore", "collections": "1.27Cr (32L Hires)" },
+      {
+        "region": "AP-TG Total",
+        "collections": "32.77Cr (8.02Cr Hires, 60L Worth Hires, SG, MG Added)"
+      },
+      { "region": "KA", "collections": "3.75Cr (2Cr Worth Hires Added)" },
+      { "region": "ROI", "collections": "52L" },
+      { "region": "OS", "collections": "6.12Cr" },
+      { "region": "Total WW Collections", "collections": "43.16Cr (67Cr~ Gross)" }
+    ],
+    "Maharshi": [
+      { "region": "Nizam", "collections": "6.38C" },
+      { "region": "Ceeded", "collections": "2.89C" },
+      { "region": "UA", "collections": "2.88C" },
+      { "region": "Guntur", "collections": "4.41C" },
+      { "region": "West", "collections": "2.46C" },
+      { "region": "Krishna", "collections": "1.39C" },
+      { "region": "East", "collections": "3.20C" },
+      { "region": "Nellore", "collections": "1.07C" },
+      { "region": "AP-TG Total", "collections": "24.68C (34Cr Gross)" },
+      { "region": "Karnataka", "collections": "3.34C (6Cr Gross)" },
+      { "region": "ROI", "collections": "0.93C" },
+      { "region": "USA", "collections": "2.64C (4.8Cr Gross)" },
+      { "region": "ROW", "collections": "0.61C" },
+      { "region": "Total WW Collections", "collections": "32.2C (48Cr Gross)" }
+    ],
+      "Vakeel Saab": [
+        { "region": "Nizam", "collections": "8.75Cr" },
+        { "region": "Ceeded", "collections": "4.50Cr" },
+        { "region": "UA", "collections": "3.85Cr (GST - 37L)" },
+        { "region": "East", "collections": "3.10Cr (Hires – 90L)" },
+        { "region": "West", "collections": "4.50Cr (Hires, MG - 3.41Cr)" },
+        { "region": "Guntur", "collections": "3.94Cr (Hires – 1.8Cr)" },
+        { "region": "Krishna", "collections": "1.90Cr (Hires + GST - 34L)" },
+        { "region": "Nellore", "collections": "1.70Cr (Hires – 41L)" },
+        {
+          "region": "AP-TG Total",
+          "collections": "32.24CR (44Cr~ Gross) (6Cr Hires)"
+        },
+        { "region": "KA+ROI", "collections": "1.82Cr (Approx)" },
+        { "region": "OS", "collections": "2.40Cr (Approx)" },
+        { "region": "Total WW Collections", "collections": "36.46CR (52.4Cr~ Gross)" }
+      ],
+      "Bheemla Nayak": [
+        { "region": "Nizam", "collections": "11.85Cr" },
+        { "region": "Ceeded", "collections": "3.28Cr" },
+        { "region": "UA", "collections": "1.88Cr" },
+        { "region": "East", "collections": "1.95Cr" },
+        { "region": "West", "collections": "3.02Cr (2Cr Hires)" },
+        { "region": "Guntur", "collections": "2.51Cr (1.45Cr Hires)" },
+        { "region": "Krishna", "collections": "0.89Cr" },
+        { "region": "Nellore", "collections": "1.04Cr (24L Hires)" },
+        {
+          "region": "AP-TG Total",
+          "collections": "26.42CR (38CR~ Gross) (3.69CR Hires)"
+        },
+        { "region": "KA+ROI", "collections": "3.10Cr" },
+        { "region": "OS", "collections": "6.85Cr" },
+        { "region": "Total WW Collections", "collections": "36.37CR (56.50CR~ Gross)" }
+      ],
+      "BRO The Avatar": [
+        { "region": "Nizam", "collections": "8.45Cr (inc GST)" },
+        { "region": "Ceeded", "collections": "2.70Cr" },
+        { "region": "UA", "collections": "2.60Cr (inc GST)" },
+        { "region": "East", "collections": "2.45Cr (inc GST) (68L~ Hires)" },
+        { "region": "West", "collections": "2.98Cr (inc GST) (1.81Cr~ Hires)" },
+        { "region": "Guntur", "collections": "2.51Cr (inc GST) (1.18Cr Hires)" },
+        { "region": "Krishna", "collections": "1.21Cr (inc GST)" },
+        { "region": "Nellore", "collections": "71L (inc GST)" },
+        {
+          "region": "AP-TG Total",
+          "collections": "23.61CR (35.50CR~ Gross) (3.67CR Hires)"
+        },
+        { "region": "KA+ROI", "collections": "2.10Cr" },
+        { "region": "OS", "collections": "4.30Cr" },
+        { "region": "Total WW Collections", "collections": "30.01CR (48.50CR~ Gross)" }
+      ],
+        "Saaho": [
+          { "region": "Nizam", "collections": "9.41Cr" },
+          { "region": "Ceeded", "collections": "4.7Cr" },
+          { "region": "Guntur", "collections": "4.7Cr (2.5Cr Hires)" },
+          { "region": "Krishna", "collections": "2.51Cr" },
+          { "region": "UA", "collections": "4.37Cr (60L Hires)" },
+          { "region": "East", "collections": "4.45Cr (2Cr Hires)" },
+          { "region": "West", "collections": "3.82Cr (55L Hires)" },
+          { "region": "Nellore", "collections": "2.56Cr (1.6Cr Hires)" },
+          {
+            "region": "AP-TG Total",
+            "collections": "36.52Cr (7.25Cr Hires) (52.1Cr Gross)"
+          },
+          { "region": "Karnataka", "collections": "7.1Cr" },
+          { "region": "Tamil", "collections": "1.92Cr" },
+          { "region": "Kerala", "collections": "0.55Cr" },
+          { "region": "Hindi & ROI", "collections": "14.9Cr" },
+          { "region": "USA", "collections": "5.85Cr" },
+          { "region": "ROW", "collections": "6.80Cr" },
+          {
+            "region": "Total WW Collections",
+            "collections": "73.64Cr (126Cr Gross)"
+          }
+        ],
+        "Radhe Shyam": [
+          { "region": "Nizam", "collections": "10.80Cr" },
+          { "region": "Ceeded", "collections": "3.50Cr (40L Hires)" },
+          { "region": "UA", "collections": "1.95Cr" },
+          { "region": "East", "collections": "2.60Cr (60L Hires)" },
+          { "region": "West", "collections": "2.01Cr (60L Hires)" },
+          { "region": "Guntur", "collections": "2.60Cr (1.10Cr Hires)" },
+          { "region": "Krishna", "collections": "0.95Cr" },
+          { "region": "Nellore", "collections": "1.08Cr (11L Hires)" },
+          {
+            "region": "AP-TG Total",
+            "collections": "25.49Cr (37Cr~ Gross) (2.81Cr Hires)"
+          },
+          { "region": "Karnataka", "collections": "2.70Cr" },
+          { "region": "Tamilnadu", "collections": "0.30Cr" },
+          { "region": "Kerala", "collections": "0.08Cr" },
+          { "region": "Hindi", "collections": "2.25Cr" },
+          { "region": "ROI", "collections": "0.80Cr" },
+          { "region": "OS", "collections": "7.75Cr" },
+          {
+            "region": "Total WW Collections",
+            "collections": "39.37Cr (67Cr~ Gross)"
+          }
+        ],
+
+          "Adipurush": [
+            { "region": "Nizam", "collections": "13.68Cr" },
+            { "region": "Ceeded", "collections": "3.52Cr" },
+            { "region": "UA", "collections": "3.72Cr" },
+            { "region": "East", "collections": "2.78Cr" },
+            { "region": "West", "collections": "2.24Cr" },
+            { "region": "Guntur", "collections": "4Cr (1.21Cr Hires)" },
+            { "region": "Krishna", "collections": "2Cr" },
+            { "region": "Nellore", "collections": "90L" },
+            {
+              "region": "AP-TG Total",
+              "collections": "32.84Cr (49.90Cr~ Gross) (2Cr~ Hires added in Several Places)"
+            },
+            { "region": "Karnataka", "collections": "4.65Cr" },
+            { "region": "Tamilnadu", "collections": "0.76Cr" },
+            { "region": "Kerala", "collections": "0.26Cr" },
+            { "region": "Hindi+ROI", "collections": "18.80Cr~" },
+            { "region": "OS", "collections": "12.80Cr~" },
+            {
+              "region": "Total WW Collections",
+              "collections": "70.11Cr (137.00Cr~ Gross)"
+            }
+          ],
+         "Ala Vaikunthapurramuloo" : [
+            { "region": "Nizam", "collections": "6.01Cr" },
+            { "region": "Ceeded", "collections": "4.02Cr (82L Hires)" },
+            { "region": "UA", "collections": "2.87Cr" },
+            { "region": "East", "collections": "2.98Cr (1.21Cr Hires, SGs, MGs)" },
+            { "region": "West", "collections": "2.78Cr (1.82Cr Hires, SGs, MGs)" },
+            { "region": "Guntur", "collections": "3.41Cr (1.56Cr Hires, SGs, MGs)" },
+            { "region": "Krishna", "collections": "2.57Cr (68L Hires, SGs, MGs)" },
+            { "region": "Nellore", "collections": "1.29Cr (30L Hires)" },
+            {
+              "region": "AP-TG Total",
+              "collections": "25.93Cr (6.39Cr Hires)"
+            },
+            { "region": "Karnataka", "collections": "3.32Cr (2.07Cr Hires)" },
+            { "region": "ROI", "collections": "1.25Cr" },
+            { "region": "OS", "collections": "6.33Cr" },
+            {
+              "region": "Total WW Collections",
+              "collections": "36.83Cr (55Cr~ Gross)"
+            }
+          ]
+        
+        
+    
+      
+    
+    
   };
 
   const handleSelection = (event) => {
