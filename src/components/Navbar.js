@@ -28,7 +28,7 @@ function Navbar() {
               onClick={() => handleTabClick(path)}
             >
               <Link to={path}>
-                {['Home','Pre-Release Business','Day 1','WW Closing', 'BoxOffice', 'APTG Area Records', 'ATR 9/9 RECORDS',][index]}
+                {['Home','Pre-Release B','Day1','WW', 'Archives', 'APTG Area', 'RECORDS',][index]}
               </Link>
             </li>
           ))}
