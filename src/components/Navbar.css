@@ -46,4 +46,9 @@
 .nav-links li a:hover {
   color: #ffcc00;
 }
+.active-tab a {
+  color: #ffcc00;
+  font-weight: 600;
+  border-bottom: 2px solid #ffcc00; /* Underline active tab */
+}
 
