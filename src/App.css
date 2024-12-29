@@ -57,36 +57,36 @@ nav .nav-block a.active {
 }
 
 .news-section {
-  padding: 2rem 1rem;
+  padding: 0.1rem 1rem;
 }
 
 .news-block-container {
   display: flex;
-  justify-content: center; /* Centered layout for uniformity */
-  gap: 0.5rem; /* Reduced gap for compact layout */
-  flex-wrap: wrap; 
+  justify-content: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
 }
 
 .news-block {
-  background-color: #2a2a2a; 
-  margin: 0.5rem; 
-  padding: 0.75rem; /* Compact padding */
-  border-radius: 8px; /* Smoothed edges */
-  flex: 1 1 calc(20% - 0.5rem); /* Smaller size for five-column layout */
-  box-sizing: border-box; /* Consistent padding and spacing */
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Enhanced animation */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3); /* Depth effect */
+  background-color: #2a2a2a;
+  margin: 1rem;
+  padding: 1rem; /* Increased padding */
+  border-radius: 8px;
+  flex: 1 1 calc(30% - 0.5rem); /* Increased block size */
+  box-sizing: border-box;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4); /* Increased depth effect */
 }
 
 .news-block:hover {
-  transform: scale(1.03); /* Subtle zoom on hover */
-  box-shadow: 0 4px 15px rgba(249, 191, 11, 0.7); /* Highlighted glow */
+  transform: scale(1.05); /* Slight zoom on hover */
+  box-shadow: 0 6px 20px rgba(249, 191, 11, 0.7);
 }
 
 .news-block h3 {
-  color: #f9bf0b; 
+  color: #f9bf0b;
   margin-bottom: 0.4rem;
-  font-size: 1.2rem; /* Compact font size */
+  font-size: 1.2rem;
 }
 
 .aligned-text {
@@ -96,17 +96,18 @@ nav .nav-block a.active {
 
 .news-block p {
   color: white;
-  text-indent: 1em; /* Indents content for readability */
+  text-indent: 1em;
   margin: 0.4rem 0;
-  font-size: 0.9rem; /* Smaller text size */
+  font-size: 0.9rem;
 }
 
 .news-block img {
-  width: 100%; 
-  height: 150px; /* Smaller image height */
-  object-fit: cover; 
-  border-radius: 5px; 
+  width: 100%;
+  height: 200px; /* Increased image height */
+  object-fit: cover;
+  border-radius: 5px;
 }
+
 
 @media (max-width: 1024px) {
   .news-block {

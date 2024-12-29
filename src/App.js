@@ -60,7 +60,7 @@ function App() {
              
             </div>
             
-            <div className="news-block light-effect">
+            {/* <div className="news-block light-effect">
               <img 
                 src="https://pbs.twimg.com/media/GfxYIDqbwAAWYo9?format=jpg&name=large" 
                 alt="4" 
@@ -68,7 +68,7 @@ function App() {
               <h3>#RRRBehindAndBeyondOnNetflix</h3>
               <p>Respect you have for SSR will grow a thousand times after watching #RRRBehindAndBeyond which was just released.</p>
              
-            </div>
+            </div> */}
 
 
             <div className="scrolling-titles">
