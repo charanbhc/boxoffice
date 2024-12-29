@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'; // Import Navbar component
-import Day1 from './pages/Day1';
+// import Day1 from './pages/Day1';
 
 function App() {
   return (
