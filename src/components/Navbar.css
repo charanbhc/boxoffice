@@ -28,7 +28,7 @@
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 6px; /* Slightly reduced gap for a compact look */
+  gap: 8px; /* Slightly reduced gap for a compact look */
   margin: 0;
   padding: 0;
 }
