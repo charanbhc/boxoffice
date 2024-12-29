@@ -24,6 +24,42 @@ function ATRDay1() {
       "Allu Arjun": ["PUSHPA 2 *"],
       "Chiranjeevi": ["KAIDHI 150"]
     },
+    "$1M Movies ": {
+      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JANATHA GARAGE*","RRR","DEVARA *"],
+      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150"]
+    },
+    "INDUSTRY HITS & NON SSR": {
+      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JANATHA GARAGE*","RRR","DEVARA *"],
+      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150"]
+    },
+    "100CR SHARES": {
+      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JANATHA GARAGE*","RRR","DEVARA *"],
+      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150"]
+    },
+    "100CR GROSSERS": {
+      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JANATHA GARAGE*","RRR","DEVARA *"],
+      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150"]
+    },
     "Mahesh Babu": {
       "Nizam": ["Athidhi", "Dookudu", "Businessman", "Aagadu"],
       "UA": ["Dookudu", "Businessman"],
