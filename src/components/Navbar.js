@@ -20,22 +20,19 @@ function Navbar() {
           </Link>
         </div>
 
-
         <ul className="nav-links">
-  {['/', '/PreReleaseBusiness', '/Day1', '/WW', '/boxoffice', '/aptg', '/ATRDay1'].map((path, index) => (
-    <li
-      key={path}
-      className={activeTab === path ? 'active-tab' : ''}
-      onClick={() => handleTabClick(path)}
-    >
-      <Link to={path} className={path === '/ATRDay1' ? 'active-tab-atr' : ''}>
-        {['Home', 'Pre-Release Business', 'Day 1', 'WW Closing', 'BoxOffice', 'APTG Area Records', 'ATR Teritory'][index]}
-      </Link>
-    </li>
-  ))}
-</ul>
-
-
+          {['/','/PreReleaseBusiness','/Day1','/WW', '/boxoffice', '/aptg', '/ATRDay1',].map((path, index) => (
+            <li
+              key={path}
+              className={activeTab === path ? 'active-tab' : ''}
+              onClick={() => handleTabClick(path)}
+            >
+              <Link to={path}>
+                {['Home','Pre-Release Business','Day 1','WW Closing', 'BoxOffice', 'APTG Area Records', 'ATR Teritory',][index]}
+              </Link>
+            </li>
+          ))}
+        </ul>
 
 
       </nav>

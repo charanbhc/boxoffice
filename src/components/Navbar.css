@@ -47,35 +47,3 @@
   color: #ffcc00;
 }
 
-/* Active tab styling */
-.active-tab a {
-  color: #ffcc00;
-  font-weight: 600;
-  border-bottom: 2px solid #ffcc00; /* Underline active tab */
-}
-
-.nav-links {
-  list-style-type: none;
-  display: flex;
-  gap: 0.6rem; /* Spacing between navigation links */
-}
-
-.nav-links li {
-  padding: 0px 0px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.nav-links li a {
-  text-decoration: none;
-  color: white;
-}
-
-.active-tab {
-
-  color: white;
-  font-weight: bold;
-}
-
-
-
