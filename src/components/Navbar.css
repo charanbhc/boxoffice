@@ -57,7 +57,7 @@
 .nav-links {
   list-style-type: none;
   display: flex;
-  gap: 1rem; /* Spacing between navigation links */
+  gap: 0.6rem; /* Spacing between navigation links */
 }
 
 .nav-links li {
