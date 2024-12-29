@@ -7,7 +7,7 @@ import Day1 from './pages/Day1';
 function App() {
   return (
     <div className="App">
-      {/* Include Navbadr at the top */}
+      {/* Include Navbadsr at the top */}
       <Navbar />
 
       <main>
