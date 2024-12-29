@@ -185,3 +185,9 @@ nav .nav-block a.active {
   background-color: rgb(153, 116, 3); 
   transform: scale(1.05); /* Slight scaling effect on hover for better interactivity */
 }
+@media (max-width: 768px) {
+  /* Styles for phones and smaller screens */
+  body {
+    font-size: 14px;
+  }
+}
