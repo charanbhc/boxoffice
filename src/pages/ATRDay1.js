@@ -24,15 +24,15 @@ function ATRDay1() {
       "Allu Arjun": ["PUSHPA 2 *"],
       "Chiranjeevi": ["KAIDHI 150","SYE RAA *"]
     },
-    "$1M Movies ": {
-      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU","Guntur Karaam"],
-      "NTR": ["BADSHAH","TEMPER","NANNAKU PREMATHO","JANATHA GARAGE","Jai Lava Kusa","Aravindha Sametha","RRR","DEVARA *"],
-      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
-      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
-      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO ","Radhe Shyam","Adipurush","SALAAR ","KALKI"],
-      "Allu Arjun": ["PUSHPA 2"],
-      "Chiranjeevi": ["KAIDHI 150"]
-    },
+    // "$1M Movies ": {
+    //   "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU","Guntur Karaam"],
+    //   "NTR": ["BADSHAH","TEMPER","NANNAKU PREMATHO","JANATHA GARAGE","Jai Lava Kusa","Aravindha Sametha","RRR","DEVARA *"],
+    //   "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+    //   "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+    //   "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO ","Radhe Shyam","Adipurush","SALAAR ","KALKI"],
+    //   "Allu Arjun": ["PUSHPA 2"],
+    //   "Chiranjeevi": ["KAIDHI 150"]
+    // },
     "Industry Hits & Non SSR*": {
     //   "Chiranjeevi": [
     //     "Khaidhi",
