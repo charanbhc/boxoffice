@@ -1,16 +1,26 @@
 .content-container {
-    padding: 20px;
-    text-align: center;
-    background-color: #1e1e1e; 
-  }
-  
-  h1 {
-    font-size: 2em;
-    margin-bottom: 10px;
-  }
-  
-  p {
-    font-size: 1em;
-    margin: 5px 0;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  background-color: #1e1e1e; 
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1em;
+  margin: 5px 0;
+}
+
+.twitter-link a {
+  color: #1DA1F2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.twitter-link a:hover {
+  color: #0d95e8; /* A slightly darker blue when hovered */
+}
