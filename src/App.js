@@ -1,6 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar'; // Import Navbar component
+import Day1 from './pages/Day1';
 
 function App() {
   return (
@@ -16,6 +18,17 @@ function App() {
             alt="Telugu Box Office" 
           />
         </div>
+{/*       
+        <div className="button-container">
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+            <Link to="/Day1" className="nav-button">Day 1</Link>
+          </div> */}
+       
+
         
         <section className="news-section">
           <div className="news-block-container">

@@ -6,7 +6,24 @@ function ATRDay1() {
   const [selectedHero, setSelectedHero] = useState(""); // Track selected hero
 
   const heroRecords = {
-    
+    "Day 1 ": {
+      "Mahesh Babu": ["DOOKUDU","BUSINESSMAN","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JAI LAVA KUSA *","ARAVINDA SAMETHA *","RRR","DEVARA *"],
+      "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150","SYE RAA *"]
+    },
+    "WW Day 1 ": {
+      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JANATHA GARAGE*","RRR","DEVARA *"],
+      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
+      "Allu Arjun": ["PUSHPA 2 *"],
+      "Chiranjeevi": ["KAIDHI 150"]
+    },
     "Mahesh Babu": {
       "Nizam": ["Athidhi", "Dookudu", "Businessman", "Aagadu"],
       "UA": ["Dookudu", "Businessman"],
@@ -103,7 +120,7 @@ function ATRDay1() {
         {selectedHero && (
           <div className="records-table">
             <h2>{selectedHero}</h2>
-            <p>ATR Day1 records are displayed below.</p>
+            <p>Box Office data is compiled from various sources.</p>
             <table>
               <thead>
                 <tr>

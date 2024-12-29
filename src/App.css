@@ -162,3 +162,26 @@ nav .nav-block a.active {
   }
 }
 
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem; /* Fixed gap value to add spacing between buttons */
+  margin-top: 2px; /* Adjusted margin for better spacing */
+}
+
+.nav-button {
+  padding: 10px 20px; /* Increased padding for better button size */
+  background-color: rgb(218, 171, 30); 
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+  background-color: rgb(153, 116, 3); 
+  transform: scale(1.05); /* Slight scaling effect on hover for better interactivity */
+}
