@@ -64,7 +64,7 @@ function BoxOffice() {
       "DEVARA * 2024 --cr",
       "PUSHPA 2 * 2024 --cr",
     ],
-    "APTG Day 1 All Time Top Share Movies": [ 
+    "APTG Day 1 Share": [ 
       "RRR 2022 74cr",
       "Pushpa 2 The Rule 2024 70.81CR",
       "Devara 2024 61.65CR",
@@ -98,7 +98,35 @@ function BoxOffice() {
       "Sardar Gabbar Singh 2016 21.70Cr",
       "Janatha Garage 2016 20.50C"],
       
-    "APTG Highest Gross Movies": [
+        "APTG All Time Share": [
+          "RRR 2022 272.31CR",
+          "Pushpa2TheRule 2024 220.73CR*",
+          "Baahubali2 2017 204CR",
+          "Kalki2898AD 2024 187.27CR",
+          "Devara Part 1 2024 162.80CR",
+          "Salaar 2023 150.73CR",
+          "AlaVaikunthapurramuloo 2020 130.17CR",
+          "SarileruNeekevvaru 2020 117.50CR",
+          "WaltairVeerayya 2023 115.10CR",
+          "Baahubali 2015 114CR",
+          "SyeRaa 2019 106.4CR",
+          "Rangasthalam 2018 95.27CR",
+          "GunturKaaram 2024 90.53CR",
+          "HanuMan 2024 90.10CR~",
+          "SarkaruVaariPaata 2022 90.07CR",
+          "AdiPurush 2023 86.25CR",
+          "Pushpa 2021 85.35CR",
+          "KGFChapter2(Dub) 2022 84.25CR",
+          "Maharshi 2019 83.48CR",
+          "Saaho 2019 82.51CR",
+          "VakeelSaab 2021 78.77CR",
+          "Khaidino150 2017 78.5CR",
+          "BheemlaNayak 2022 76.84CR",
+          "AravindhaSametha 2018 74CR"
+        ],
+      
+      
+    "APTG All Time Gross": [
       "RRR 2022 415.00CR",
       "Baahubali2 2017 330Cr",
       "Pushpa2TheRule 2024 319.55CR",
@@ -125,7 +153,7 @@ function BoxOffice() {
       "AravindhaSametha 2018 112Cr"
     ],
 
-    "WW Day 1 Top Shares":[
+    "WW Day 1 Shares":[
         "Pushpa 2 The Rule 2024 160.01CR",
         "RRR 2022 135CR",
         "Baahubali2 2017 123C",
@@ -198,7 +226,7 @@ function BoxOffice() {
       "Dasara 2023 38.40C"
     ],
      
-    "WW South Day 1 Top Grossers": [
+    "WW South Day 1 Grossers": [
       "Pushpa 2 The Rule 2024 285.55CR",
       "RRR 2022 235CR",
       "Baahubali2 2017 215CR",
@@ -248,7 +276,7 @@ function BoxOffice() {
       "Jai Lava Kusa 2017 46.80CR",
       "Rangasthalam 2018 45.10CR"
     ],
-    "WW Highest Share Movies (Telugu Version)": [
+    "WW Highest Share (Telugu Version)": [
       "RRRMovie 2022 371.41CR",
       "Baahubali2 2017 320Cr",
       "Pushpa2TheRule 2024 305.63CR",

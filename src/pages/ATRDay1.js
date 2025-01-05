@@ -33,6 +33,15 @@ function ATRDay1() {
       "Ram Charan": ["Dhruva","Rangasthalam","RRR"],
       "Allu Arjun": ["Race Gurram","Son Of Satyamurthy","Duvvada Jagannadham","Ala Vaikunthapuramuloo","Pushpa","Pushpa 2"],
     },
+    // "USA(Premieres)	 ": {
+    //   "Mahesh Babu": ["Sainikudu","Athidhi","Khaleja","Dookudu", "Businessman","Seethamma Vakitlo Sirimalle Chettu","Aagadu"],
+    //   "Nani": ["Eega","Bhale Bhale Magadivoi","Nenu Local","Ninnu Kori","MCA","Jersey","Ante Sundaraniki","Dasara","Hi Nanna","Saripodhaa Sanivaaram"],
+    //   "NTR": ["Baadshah","RRR"],
+    //   "Pawan Kalyan": ["Jalsa","Panja","Gabbar Singh","Cameraman Gangatho Rambabu","Atharintiki Daaredi"],
+    //   "Prabhas": ["Baahubali", "Baahubali 2","Kalki"],
+    //   "Ram Charan": ["Magadheera", "RRR"],
+    //   "Allu Arjun": [],
+    // },
     "Industry Hits & Non SSR*": {
     //   "Chiranjeevi": [
     //     "Khaidhi",
