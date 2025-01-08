@@ -42,37 +42,8 @@ function ATRDay1() {
     //   "Ram Charan": ["Magadheera", "RRR"],
     //   "Allu Arjun": [],
     // },
-    "Industry Hits & Non SSR*": {
-    //   "Chiranjeevi": [
-    //     "Khaidhi",
-    //     "Pasivadi Pranam",
-    //     "Yamudiki Mogudu",
-    //     "Atthaku Yamudu Ammaiki Mogudu",
-    //     "Jagadheka Veerudu Athiloka Sundhari",
-    //     "Gang Leader",
-    //     "Gharana Mogudu",
-    //     "Indhra",
-    //     "Khaidi No. 150*",
-    //     "Sye Raa Narasimha Reddy*"
-    // ],
-    "Prabhas": ["Baahubali", "Baahubali 2", "Salaar *", "Kalki*"],
-    "Ram Charan": ["Magadheera", "Rangasthalam*", "RRR"],
-      "Mahesh Babu": ["Pokiri", "Dookudu*", "Srimantudu*"],
-      
-      "Pawan Kalyan": ["Gabbar Singh*","Attarintiki Daredi"],
-      // "Bala Krishna": ["Muddula Mavayya", "Samara Simha Reddy", "Narasimha Naidu"],
-     
-      "Allu Arjun": ["Ala Vaikunthapurramuloo*", "Pushpa 2*"],
-     
-      
-      "Ntr": ["RRR"],
-      // "Venkatesh": ["Chanti"],
-      // "Mohan Babu": ["Peddha Rayudu"],
-      // "Tarun": ["Nuvve Kavali"]
   
-    },
- 
-    "Mahesh Babu ATR": {
+    "ATR Mahesh Babu": {
       "Nizam": ["Athidhi", "Dookudu", "Businessman", "Aagadu"],
       "UA": ["Dookudu", "Businessman"],
       "Ceeded": [],
@@ -86,7 +57,7 @@ function ATRDay1() {
       "USA(Premieres+Day1)": ["Khaleja","Dookudu", "Businessman","Seethamma Vakitlo Sirimalle Chettu", "Aagadu"],
       
     },
-    "NTR ATR": {
+    "ATR NTR": {
       "Nizam": ["Oosaravelli", "RRR"],
       "UA": ["Yamadonga", "Oosaravelli", "Dhammu", "Janatha Garage", "RRR"],
       "Ceeded": ["Yamadonga", "Oosaravelli", "Dhammu", "Baadshah", "RRR"],
@@ -100,7 +71,7 @@ function ATRDay1() {
       "USA(Premieres+Day1)": ["RRR"]
    
     },
-    "Prabhas ATR": {
+    "ATR Prabhas": {
       "Nizam": ["Baahubali ", "Baahubali 2", "Saaho"],
       "UA": ["Baahubali", "Baahubali 2"],
       "Ceeded": ["Baahubali", "Baahubali 2"],
@@ -113,7 +84,7 @@ function ATRDay1() {
       "USA(Premieres)": ["Baahubali", "Baahubali 2","Kalki"],
       "USA(Premieres+Day1)": ["Baahubali", "Baahubali 2"]
     },
-    "Pawan Kalyan ATR": {
+    "ATR Pawan Kalyan": {
       "Nizam": ["Jalsa", "Cameraman Gangatho Rambabu", "Atharintiki Daaredi", "Bheemla Nayak"],
       "UA": ["Jalsa", "Puli", "Cameraman Gangatho Rambabu", "Sardaar Gabbar Singh", "Katamarayudu"],
       "Ceeded": [],
@@ -126,7 +97,7 @@ function ATRDay1() {
       "USA(Premieres)": ["Jalsa","Panja","Gabbar Singh","Cameraman Gangatho Rambabu","Atharintiki Daaredi"],
       "USA(Premieres+Day1)": ["Jalsa","Atharintiki Daaredi"]
     },
-    "Ramcharan ATR": {
+    "ATR Ramcharan": {
       "Nizam": ["Magadheera", "RRR"],
       "UA": ["Magadheera", "Nayak", "RRR"],
       "Ceeded": ["Chitutha", "Magadheera", "Racha","Vinaya Vidheya Rama(7.35Cr(4.26Cr hires))", "RRR"],
@@ -139,7 +110,7 @@ function ATRDay1() {
       "USA(Premieres)": ["Magadheera", "RRR"],
       "USA(Premieres+Day1)": ["Magadheera", "RRR"]
     },
-    "Allu Arjun ATR": {
+    "ATR Allu Arjun": {
         "Nizam": ["Pushpa","Pushpa 2"],
         "UA": ["Pushpa 2"],
         "Ceeded": [],
@@ -152,7 +123,7 @@ function ATRDay1() {
         "USA(Premieres)": [],
         "USA(Premieres+Day1)": []
       },
-      "APTG Day 1 MB FIXTURES ": {
+      "APTG Day 1 Fixtures MB ": {
         "TOP 1": ["DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU"],
         "TOP 2": ["SRIMANTUDU"],
         "TOP 3": ["1","BHARATH ANE NENU"],
@@ -161,13 +132,13 @@ function ATRDay1() {
         "TOP 7": ["SVSC"],
         "TOP 9": ["SPYDER"],
       },
-    "APTG Day 1 NTR FIXTURES ": {
+    "APTG Day 1 Fixtures NTR": {
       "TOP 1": ["OOSARAVALLI", "DAMMU", "BADSHAH", "RRR"],
       "TOP 2": ["Aravinda Sametha Veera Raghava", "DEVARA"],
       "TOP 3": ["SHAKTHI", "RAMAIAH VASTAVAIYAH", "RABHASA", "TEMPER", "JANATHA GARAGE", "JAI LAVA KUSA"],
       "TOP 4": ["NAANNAKU PREMATHO"]
   },
-  "APTG Day 1 PK FIXTURES ": {
+  "APTG Day 1 Fixtures PK": {
     "TOP 1": ["Gabbar Singh","Cameraman Gangatho Rambabu","Atharintiki Daaredi"],
     "TOP 2": ["Panja","Sardaar Gabbar Singh","Agnyaathavaasi"],
     "TOP 3": ["Katamarayudu"],
@@ -177,13 +148,42 @@ function ATRDay1() {
     "TOP 19": ["Bro"]
 },
 
-"APTG Day 1 Prabhas FIXTURES ": {
+"APTG Day 1 Fixtures PRABHAS": {
   "TOP 1": ["Baahubali","Baahubali 2"],
   "TOP 2": ["Saaho","Salaar"],
   "TOP 3": ["Kalki"],
   "TOP 6": ["Adipurush"],
   "TOP 13": ["Radhe Shyam"]
 },
+"Industry Hits & Non SSR*": {
+  //   "Chiranjeevi": [
+  //     "Khaidhi",
+  //     "Pasivadi Pranam",
+  //     "Yamudiki Mogudu",
+  //     "Atthaku Yamudu Ammaiki Mogudu",
+  //     "Jagadheka Veerudu Athiloka Sundhari",
+  //     "Gang Leader",
+  //     "Gharana Mogudu",
+  //     "Indhra",
+  //     "Khaidi No. 150*",
+  //     "Sye Raa Narasimha Reddy*"
+  // ],
+  "Prabhas": ["Baahubali", "Baahubali 2", "Salaar *", "Kalki*"],
+  "Ram Charan": ["Magadheera", "Rangasthalam*", "RRR"],
+    "Mahesh Babu": ["Pokiri", "Dookudu*", "Srimantudu*"],
+    
+    "Pawan Kalyan": ["Gabbar Singh*","Attarintiki Daredi"],
+    // "Bala Krishna": ["Muddula Mavayya", "Samara Simha Reddy", "Narasimha Naidu"],
+   
+    "Allu Arjun": ["Ala Vaikunthapurramuloo*", "Pushpa 2*"],
+   
+    
+    "Ntr": ["RRR"],
+    // "Venkatesh": ["Chanti"],
+    // "Mohan Babu": ["Peddha Rayudu"],
+    // "Tarun": ["Nuvve Kavali"]
+
+  },
     
       "100CR SHARES": {
         "Prabhas": ["Baahubali","Baahubali 2","Saaho","AdiPurush","Salaar","Kalki"],
