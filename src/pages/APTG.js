@@ -21,28 +21,55 @@ function APTG() {
     "Nizam": [
     
       { name: "Nizamabad Town Top 10 Grossers", content: "Nizamabad Town Top 10 Grossers" },
+      { name: " ", content: " " },
+ 
+
    
     ],
     "Ceeded": [
       { name: "Anantapur Town Day 1", content: "Anantapur Town Day 1" },
       { name: "Nandyal Town Day 1", content: "Nandyal Town Day 1" },
-      { name: "Kadapa Town Top 5 Grossers", content: "Kadapa Town Top 5 Grossers" },
+   
       { name: "Adoni Town Top Grossers", content: "Adoni Town Top Grossers" },
       { name: "Guntakal Town Top Grossers", content: "Guntakal Town Top Grossers" },
+      { name: "Yemmiganur Town 60L+ Grossers", content: "Yemmiganur Town 60L+ Grossers" },
+      { name: "Kadiri Town Top Grossers", content: "Kadiri Town Top Grossers" },
+      { name: "Nandyal Town Top 10 Grossers", content: "Nandyal Town Top 10 Grossers" },
+      { name: "Kadapa Town Top 10 Grossers", content: "Kadapa Town Top 10 Grossers" },
+      { name: "Guntakal Town 1st Week Top 10 Grossers", content: "Guntakal Town 1st Week Top 10 Grossers" },
+      { name: "Anantapur Town & B Centres 1st Week Top Grossers", content: "Anantapur Town & B Centres 1st Week Top Grossers" },
+      { name: "Kadiri Town 1st Week Top 10 Grossers", content: "Kadiri Town 1st Week Top 10 Grossers" },
+      { name: "Adoni Town 1st Week Top Grossers", content: "Adoni Town 1st Week Top Grossers" },
+      { name: " ", content: " " },
+  
+
 
     ],
     "Nellore": [
+      { name: "Kandukur Town 25L+ Share Films", content: "Kandukur Town 25L+ Share Films" },
+      { name: "Kavali Town Top 10 Grossers", content: "Kavali Town Top 10 Grossers" },
+      { name: "Kavali Town 1st Week Top 10 Grossers", content: "Kavali Town 1st Week Top 10 Grossers" },
+      { name: " ", content: " " },
      
+
   
 
     ],
     "Guntur": [
       { name: "Macherla Town Day 1 Top 10 Grossers", content: "Macherla Town Day 1 Top 10 Grossers" },
+      { name: "Macherla Town Top 10 Grossers", content: "Macherla Town Top 10 Grossers" },
+      { name: "Macherla Town 1st Week Top 10 Grossers", content: "Macherla Town 1st Week Top 10 Grossers" },
       { name: "Chirala+Macherla Towns Top 10 Grossers", content: "Chirala+Macherla Towns Top 10 Grossers" },
       { name: "Chirala Top 10 Grossers", content: "Chirala Top 10 Grossers" },
       { name: "Chirala Town 1st Week Top 10 Grossers", content: "Chirala Town 1st Week Top 10 Grossers" },
       { name: "Chirala Town Day 1 Top Grossers", content: "Chirala Town Day 1 Top Grossers" },
       { name: "Chirala Day 2 Top Gross", content: "Chirala Day 2 Top Gross" },
+     { name: "Vinukonda Town Top Grossers", content: "Vinukonda Town Top Grossers" },
+    
+     { name: "Vinukonda Town 1st Week Top 10 Grossers", content: "Vinukonda Town 1st Week Top 10 Grossers" },
+     { name: "Macherla Town 1st Week Top 10 Grossers", content: "Macherla Town 1st Week Top 10 Grossers" },
+     { name: " ", content: " " },
+  
    
     ],
     "Krishna": [
@@ -50,15 +77,22 @@ function APTG() {
       { name: "Machilipatnam 1st Week Top 10 Grossers", content: "Machilipatnam 1st Week Top 10 Grossers" },
       { name: "Machilipatnam Day 1 Top 10 Grossers", content: "Machilipatnam Day 1 Top 10 Grossers" },
       { name: "Tiruvuru Centre Top Shares", content: "Tiruvuru Centre Top Shares" },
+      { name: " ", content: " " },
+   
+
    
 
     ],
     "UA": [
-  
+  { name: "Srikakulam Town 1st Week Top 10 Grossers", content: "Srikakulam Town 1st Week Top 10 Grossers" },
+  { name: "Gajuwaka Town Single Screens 1st Week Top 10 Grossers", content: "Gajuwaka Town Single Screens 1st Week Top 10 Grossers" },
+  { name: " ", content: " " },
+
 
     ],
     "East": [
       { name: " ", content: " " },
+
    
 
     ],
@@ -66,12 +100,416 @@ function APTG() {
       
        { name: "Tanuku Town Top 10 Grossers", content: "Tanuku Town Top 10 Grossers" },
        { name: "Tadepalligudem Town Top 10 Grossers", content: "Tadepalligudem Town Top 10 Grossers" },
+       { name: "Tadepalligudem Town 1st Week Top 10 Grossers", content: "Tadepalligudem Town 1st Week Top 10 Grossers" },
+       { name: " ", content: " " },
+     
  
     ],
     // Add other categories similarly...
   };
 
   const topGrossers = {
+    
+      "Tanuku Town 1st week Top 10 Grossers": [
+        { "name": "#RRR", "gross": "1.04Cr" },
+        { "name": "#Baahubali2", "gross": "95.3L" },
+        { "name": "#AVPL", "gross": "81.97L" },
+        { "name": "#Kalki", "gross": "64.79L" },
+        { "name": "#VakeelSaab", "gross": "63.56L" },
+        { "name": "#Pushpa2", "gross": "63.02L" },
+        { "name": "#KhaidiNo150", "gross": "62.93L" },
+        { "name": "#Salaar", "gross": "61.47L" },
+        { "name": "#WaltairVeerayya", "gross": "58L" },
+        { "name": "#SyeRaa", "gross": "56.41L" }
+      ],
+ 
+    
+     
+    
+   
+    
+    
+      "Gajuwaka Town Single Screens 1st Week Top 10 Grossers": [
+        { "name": "#RRR", "gross": "1,56,74,558" },
+        { "name": "#Baahubali2", "gross": "1,23,34,776" },
+        { "name": "#Kalki", "gross": "1,18,51,055" },
+        { "name": "#Pushpa2", "gross": "1,11,80,205" },
+        { "name": "#Devara", "gross": "93,69,440" },
+        { "name": "#WaltairVeerayya", "gross": "90,44,775" },
+        { "name": "#Salaar", "gross": "89,98,750" },
+        { "name": "#SyeRaa", "gross": "89,58,272" },
+        { "name": "#SLN", "gross": "86,34,277" },
+        { "name": "#AVPL", "gross": "86,02,000" }
+      ],
+      "Macherla Town 1st Week Top 10 Grossers": [
+        { "name": "#RRR", "gross": "35.93L" },
+        { "name": "#Pushpa2", "gross": "32.13L" },
+        { "name": "#VeeraSimhaReddy", "gross": "30.7L" },
+        { "name": "#WaltairVeerayya", "gross": "26.66L" },
+        { "name": "#Salaar", "gross": "26.13L" },
+        { "name": "#Kalki2898AD", "gross": "24.11L" },
+        { "name": "#Devara", "gross": "24L" },
+        { "name": "#GunturKaaram", "gross": "22.78L" },
+        { "name": "#SarileruNeekevvaru", "gross": "22.18L" },
+        { "name": "#Baahubali2", "gross": "22L" }
+      ],
+    
+    
+    "Adoni Town 1st Week Top Grossers": [
+      { "name": "#RRR", "gross": "96.86L" },
+      { "name": "#Pushpa2", "gross": "71.97L" },
+      { "name": "#Devara", "gross": "66.27L" },
+      { "name": "#Baahubali2", "gross": "54.66L" },
+      { "name": "#WaltairVeerayya", "gross": "46.71L" },
+      { "name": "#SyeRaa", "gross": "44.54L" },
+      { "name": "#Salaar", "gross": "43.45L" },
+      { "name": "#VeeraSimhaReddy", "gross": "42.68L" }
+    ],
+    "Vinukonda Town 1st Week Top 10 Grossers": [
+      { "name": "#RRR", "gross": "45.6L" },
+      { "name": "#Pushpa2", "gross": "35.01L" },
+      { "name": "#Devara", "gross": "33.85L" },
+      { "name": "#Salaar", "gross": "30.53L" },
+      { "name": "#Kalki2898AD", "gross": "29.2L" },
+      { "name": "#VeeraSimhaReddy", "gross": "28.47L" },
+      { "name": "#WaltairVeerayya", "gross": "26.66L" },
+      { "name": "#AVPL", "gross": "26L" },
+      { "name": "#SarkaruVaariPaata", "gross": "25.72L" },
+      { "name": "#Baahubali2", "gross": "25L" }
+    ],
+    "Kavali Town 1st Week Top 10 Grossers": [
+      { "name": "#RRR", "gross": "68.57L" },
+      { "name": "#Pushpa2", "gross": "66.32L" },
+      { "name": "#Devara", "gross": "61.3L" },
+      { "name": "#Baahubali2", "gross": "60L" },
+      { "name": "#Kalki2898AD", "gross": "51.38L" },
+      { "name": "#Salaar", "gross": "45.54L" },
+      { "name": "#GunturKaaram", "gross": "41.65L" },
+      { "name": "#SarileruNeekevvaru", "gross": "40.57L" },
+      { "name": "#AVPL", "gross": "40.03L" },
+      { "name": "#SyeRaa", "gross": "38.4L" }
+    ],
+    "Srikakulam Town 1st Week Top 10 Grossers": [
+      { "name": "#RRR", "gross": "1.76cr" },
+      { "name": "#Baahubali2", "gross": "1.56Cr" },
+      { "name": "#Pushpa2", "gross": "1.25Cr" },
+      { "name": "#AVPL", "gross": "1.16Cr" },
+      { "name": "#Kalki", "gross": "1.04Cr" },
+      { "name": "#SLN", "gross": "94.5L" },
+      { "name": "#WaltairVeerayya", "gross": "89.51L" },
+      { "name": "#Devara", "gross": "89.1L" },
+      { "name": "#Salaar", "gross": "88.26L" },
+      { "name": "#GunturKaaram", "gross": "87.17L" }
+    ],
+    "Anantapur Town & B Centres 1st Week Top Grossers": [
+      { "name": "#RRR", "gross": "6.14Cr" },
+      { "name": "#Pushpa2", "gross": "4.76Cr" },
+      { "name": "#Baahubali2", "gross": "4.5Cr+" },
+      { "name": "#Devara", "gross": "4.14Cr" }
+    ],
+
+    "Guntakal Town 1st Week Top 10 Grossers": [
+      { "name": "#RRR", "gross": "73.8L" },
+      { "name": "#Baahubali2", "gross": "48.6L" },
+      { "name": "#Pushpa2", "gross": "43.51L" },
+      { "name": "#Devara", "gross": "35.66L" },
+      { "name": "#Salaar", "gross": "35.1L" },
+      { "name": "#VeeraSimhaReddy", "gross": "32.3L" },
+      { "name": "#Baahubali", "gross": "31.8L" },
+      { "name": "#Akhanda", "gross": "31.5L" },
+      { "name": "#VakeelSaab", "gross": "31.4L" },
+      { "name": "#SyeRaa", "gross": "30.7L" }
+    ],
+    
+      "Tadepalligudem Town 1st Week Top 10 Grossers": [
+        {
+          "name": "RRR",
+          "gross": "74.92L"
+        },
+        {
+          "name": "Baahubali2",
+          "gross": "63.68L"
+        },
+        {
+          "name": "WaltairVeerayya",
+          "gross": "47.22L"
+        },
+        {
+          "name": "AVPL",
+          "gross": "44.51L"
+        },
+        {
+          "name": "SarileruNeekevvaru",
+          "gross": "43.86L"
+        },
+        {
+          "name": "Kalki",
+          "gross": "43.15L"
+        },
+        {
+          "name": "Pushpa2",
+          "gross": "42.68L"
+        },
+        {
+          "name": "Salaar",
+          "gross": "39.97L"
+        },
+        {
+          "name": "BheemlaNayak",
+          "gross": "38.13L"
+        },
+        {
+          "name": "VakeelSaab",
+          "gross": "37.75L"
+        }
+      ],
+    
+      "Kadapa Town Top 10 Grossers": [
+        {
+          "name": "RRR",
+          "gross": "3,14,40,812"
+        },
+        {
+          "name": "Pushpa2",
+          "gross": "2,39,17,844(10D)",
+         
+        },
+        {
+          "name": "Devara",
+          "gross": "2,36,20,250"
+        },
+        {
+          "name": "Baahubali2",
+          "gross": "2,30,89,976"
+        },
+        {
+          "name": "Kalki2898AD",
+          "gross": "2,19,96,000"
+        },
+        {
+          "name": "Salaar",
+          "gross": "1,88,00,000"
+        },
+        {
+          "name": "AVPL",
+          "gross": "1,54,78,949"
+        },
+        {
+          "name": "WaltairVeerayya",
+          "gross": "1,50,44,600"
+        },
+        {
+          "name": "Baahubali",
+          "gross": "1,35,76,412"
+        },
+        {
+          "name": "KGF2",
+          "gross": "1,31,00,000"
+        }
+      ],
+    
+    
+    "Nellore Dist Kavali Town Top 10 Grossers": [
+      {
+        "name": "Baahubali2",
+        "gross": "1.17Cr"
+      },
+      {
+        "name": "RRR",
+        "gross": "1.07Cr"
+      },
+      {
+        "name": "Devara",
+        "gross": "87.55L"
+      },
+      {
+        "name": "Pushpa2",
+        "gross": "82L",
+        "days": "11D"
+      },
+      {
+        "name": "Kalki2898AD",
+        "gross": "70.41L"
+      },
+      {
+        "name": "AVPL",
+        "gross": "69.03L"
+      },
+      {
+        "name": "SarileruNeekevvaru",
+        "gross": "66.07L"
+      },
+      {
+        "name": "Salaar",
+        "gross": "59.7L"
+      },
+      {
+        "name": "WaltairVeerayya",
+        "gross": "57.3L"
+      },
+      {
+        "name": "Rangasthalam",
+        "gross": "53.55L"
+      }
+    ],"Kadiri Town 1st Week Top 10 Grossers": [
+      { "name": "#RRR", "gross": "43.50L" },
+      { "name": "#Pushpa2", "gross": "33.79L" },
+      { "name": "#Bahubali2", "gross": "32.69L" },
+      { "name": "#Devara", "gross": "29.3L" },
+      { "name": "#VeeraSimhaReddy", "gross": "27L" },
+      { "name": "#AVPL", "gross": "26.87L" },
+      { "name": "#Salaar", "gross": "24.75L" },
+      { "name": "#KhaidiNo150", "gross": "23.5L" },
+      { "name": "#WaltairVeerayya", "gross": "23L" },
+      { "name": "#Baahubali", "gross": "23L" }
+    ],
+  
+ 
+      "Kadiri Town Top Grossers": [
+        {
+          "name": "RRR",
+          "gross": "68.44L"
+       
+        },
+        {
+          "name": "Baahubali2",
+          "gross": "65L"
+          
+        },
+        {
+          "name": "Pushpa2",
+          "gross": "56L(21D)"
+         
+         
+        },
+        {
+          "name": "Devara",
+          "gross": "53.5L"
+         
+        }
+      ],    
+    
+    "Yemmiganur Town 60L+ Grossers": [
+      {
+        "name": "RRR",
+        "gross": "93.2L"
+      },
+      {
+        "name": "Devara",
+        "gross": "64.14L"
+      },
+      {
+        "name": "Pushpa2",
+        "gross": "60.6L(21D)",
+  
+      }
+    ],
+    
+    
+      "Macherla Town Top 10 Grossers": [
+        {
+          "name": "RRR",
+          "gross": "58.78L"
+        },
+        {
+          "name": "Baahubali2",
+          "gross": "50.5L"
+        },
+        {
+          "name": "Pushpa2",
+          "gross": "42.36L",
+          "days": "13D"
+        },
+        {
+          "name": "Devara",
+          "gross": "42.32L"
+        },
+        {
+          "name": "VeeraSimhaReddy",
+          "gross": "42.18L"
+        },
+        {
+          "name": "AVPL",
+          "gross": "41.20L"
+        },
+        {
+          "name": "WaltairVeerayya",
+          "gross": "38.09L"
+        },
+        {
+          "name": "SarileruNeekevvaru",
+          "gross": "35.86L"
+        },
+        {
+          "name": "Kalki2898AD",
+          "gross": "35.73L"
+        },
+        {
+          "name": "Salaar",
+          "gross": "34.19L"
+        }
+      ],
+  
+        "Nandyal Town Top 10 Grossers": [
+          {
+            "name": "RRR",
+            "gross": "2,38,75,000"
+          },
+          {
+            "name": "Pushpa2",
+            "gross": "1,63,42,635",
+            "days": "10D"
+          },
+          {
+            "name": "Devara",
+            "gross": "1,58,08,320"
+          },
+          {
+            "name": "Baahubali2",
+            "gross": "1,28,80,111"
+          },
+          {
+            "name": "Salaar",
+            "gross": "1,20,94,121"
+          },
+          {
+            "name": "Kalki",
+            "gross": "1,19,85,000"
+          },
+          {
+            "name": "AVPL",
+            "gross": "1,13,27,966"
+          },
+          {
+            "name": "SyeRaa",
+            "gross": "1,11,89,211"
+          },
+          {
+            "name": "WaltairVeerayya",
+            "gross": "1,02,76,240"
+          },
+          {
+            "name": "SLN",
+            "gross": "96,42,014"
+          }
+        ],      
+    
+    
+    "Vinukonda Town Top Grossers": [
+      { "name": "#RRR", "gross": "65L" },
+      { "name": "#Baahubali2", "gross": "60L" },
+      { "name": "#Pushpa2", "gross": "53.88L (22D)" },
+      { "name": "#Devara", "gross": "53.25L" }
+    ],
+    "Kandukur Town 25L+ Share Films": [
+    { "name": "#Baahubali2", "gross": "35L" },
+    { "name": "#RRR", "gross": "34.5L" },
+    { "name": "#AVPL", "gross": "32.5L" },
+    { "name": "#Magadheera", "gross": "28L" },
+    { "name": "#SarileruNeekevvaru", "gross": "27L" },
+    { "name": "#Pushpa2", "gross": "27L" },
+    { "name": "#Devara", "gross": "25.5L" }
+  ],
     "Chirala Town Day 1 Top Grossers": [
       { "name": "#RRR", "gross": "20.34L" },
       { "name": "#Pushpa2TheRule", "gross": "15.65L" },
@@ -233,13 +671,7 @@ function APTG() {
       { "name": "#WaltairVeerayya", "gross": "1.27Cr" },
       { "name": "#Adipurush", "gross": "1.24Cr" }
     ],
-    "Kadapa Town Top 5 Grossers": [
-      { "name": "#RRR", "gross": "3,14,40,812" },
-      { "name": "#Pushpa2", "gross": "3,08,52,004 (28D)" },
-      { "name": "#Devara", "gross": "2,36,20,250" },
-      { "name": "#Baahubali2", "gross": "2,30,89,976" },
-      { "name": "#Kalki2898AD", "gross": "2,19,96,000" }
-    ],
+
     "Adoni Town Top Grossers": [
       { "name": "#RRR", "gross": "1.5Cr" },
       { "name": "#Baahubali2", "gross": "1.22Cr" },
@@ -295,7 +727,7 @@ function APTG() {
     <div>
       <Navbar />
       <div className="container">
-        <h1>Main Categories</h1>
+        <h1>AP TG Center records</h1>
         <div className="main-buttons">
           {mainCategories.map((category) => (
             <div key={category} className="main-button">

@@ -15,6 +15,7 @@ function PreReleaseBusiness() {
       { region: "Salaar", collections: "345CR" },
       { region: "Saaho", collections: "270cr" },
       { region: "ADIPURUSH", collections: "240CR" },
+      { region: "Game Changer", collections: "220CR" },
       { region: "Radhe Shyam", collections: "202.80Cr" },
       { region: "SyeRaa Narasimha Reddy", collections: "187.25Cr" },
       { region: "Devara Part 1", collections: "182.55CR" },
@@ -68,6 +69,7 @@ function PreReleaseBusiness() {
       { "region": "RRRMovie 2022", "collections": "191CR" },
       { "region": "KALKI2898AD 2024", "collections": "168CR" },
       { "region": "Salaar 2023", "collections": "145CR" },
+      { "region": "Game Changer 2025", "collections": "131.7CR" },
       { "region": "Baahubali2 2017", "collections": "122CR" },
       { "region": "Saaho 2019", "collections": "121.6CR" },
       { "region": "AdiPurush 2023", "collections": "120CR" },
@@ -89,6 +91,7 @@ function PreReleaseBusiness() {
       { "region": "KALKI2898AD 2024", "collections": "65CR" },
       { "region": "Salaar 2023", "collections": "60CR" },
       { "region": "AdiPurush 2023", "collections": "50CR" },
+      { "region": "Game Changer 2025", "collections": "50CR" },
       { "region": "Devara Part 1 2024", "collections": "44.00CR" },
       { "region": "GunturKaaram 2024", "collections": "42.00CR" },
       { "region": "Baahubali2 2017", "collections": "40CR" },
@@ -290,7 +293,25 @@ function PreReleaseBusiness() {
       { region: "Hindi+ROI", collections: "200Cr" },
       { region: "OS", collections: "100Cr" },
       { region: "Total WW", collections: "617CR" }
-    ]
+    ],
+    "Game Changer": [
+      { region: "Nizam", collections: "50Cr" },
+      { region: "Ceeded", collections: "23Cr" },
+      { region: "UA", collections: "15.6Cr" },
+      { region: "East", collections: "10.4Cr" },
+      { region: "West", collections: "7.8Cr" },
+      { region: "Guntur", collections: "10.4Cr" },
+      { region: "Krishna", collections: "9.1Cr" },
+      { region: "Nellore", collections: "5.4Cr" },
+      { region: "AP-TG Total", collections: "131.7CR" },
+      { region: "KA", collections: "18Cr" },
+      { region: "Tamilnadu", collections: "15Cr" },
+      { region: "Kerala", collections: "0.5Cr" },
+      { region: "Hindi Belt", collections: "25Cr" },
+      { region: "P & P", collections: "4.8Cr" },
+      { region: "OS", collections: "25Cr" },
+      { region: "Total WW", collections: "220CR" }
+    ],
   };
   
   console.log(movieCollections);

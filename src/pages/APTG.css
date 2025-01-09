@@ -92,12 +92,12 @@
 
 /* Additional Button Style Modifications */
 .selected {
-  background-color: #4a3a02; /* Blue background for selected buttons */
+  background-color: #0a0000; /* Blue background for selected buttons */
   color: rgb(255, 255, 255); /* White text for selected buttons */
   border: 1px solid #d5af08; /* Dark blue border for selected buttons */
 }
 
 /* Selected Button - Hover Effect */
 .selected:hover {
-  background-color: #c1a209; /* Dark blue on hover */
+  background-color: #0e0c01; /* Dark blue on hover */
 }
