@@ -6,6 +6,24 @@ function Day1() {
   const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
 
   const movieCollections = {
+    "Game Changer": [
+      { region: "Nizam", collections: "8.84Cr" },
+      { region: "Ceeded", collections: "5.32Cr" },
+      { region: "UA", collections: "****" },
+      { region: "East", collections: "4.15Cr" },
+      { region: "West", collections: "1.95Cr" },
+      { region: "Guntur", collections: "3.41Cr" },
+      { region: "Krishna", collections: "2.69Cr" },
+      { region: "Nellore", collections: "2.01Cr" },
+      { region: "AP-TG Total", collections: "28.37Cr*****" },
+      { region: "KA", collections: "" },
+      { region: "Tamilnadu", collections: "" },
+      { region: "Kerala", collections: "" },
+      { region: "Hindi", collections: "" },
+      { region: "ROI", collections: "" },
+      { region: "OS", collections: "" },
+      { region: "Total WW Collections", collections: "" }
+    ],
     RRR: [
         { region: "Nizam", collections: "23.35Cr (35.80Cr Gross)" },
         { region: "Ceeded", collections: "17Cr (4.27Cr hires) (21Cr Gross)" },
@@ -346,7 +364,7 @@ function Day1() {
         {selectedMovie && (
           <div className="records-table">
             <h2>{selectedMovie}</h2>
-            <p>ATR Day1 records are displayed below.</p>
+            <p>Day1 records are displayed below.</p>
             <table>
               <thead>
                 <tr>
