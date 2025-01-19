@@ -6,6 +6,24 @@ function Day1() {
   const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
 
   const movieCollections = {
+    "Daaku Maharaaj": [
+      { region: "Nizam", collections: "4.07Cr" },
+      { region: "Ceeded", collections: "5.25Cr" },
+      { region: "UA", collections: "1.92Cr" },
+      { region: "East", collections: "1.95Cr" },
+      { region: "West", collections: "1.75Cr" },
+      { region: "Guntur", collections: "4.00Cr" },
+      { region: "Krishna", collections: "1.86Cr" },
+      { region: "Nellore", collections: "1.51Cr" },
+      { region: "AP-TG Total", collections: "22.31Cr**" },
+      // { region: "KA", collections: "" },
+      // { region: "Tamilnadu", collections: "" },
+      // { region: "Kerala", collections: "" },
+      // { region: "Hindi", collections: "" },
+      // { region: "ROI", collections: "" },
+      // { region: "OS", collections: "" },
+      // { region: "Total WW Collections", collections: "" }
+    ],
     "Game Changer": [
       { region: "Nizam", collections: "8.84Cr" },
       { region: "Ceeded", collections: "5.32Cr" },
@@ -16,13 +34,13 @@ function Day1() {
       { region: "Krishna", collections: "2.69Cr" },
       { region: "Nellore", collections: "2.01Cr" },
       { region: "AP-TG Total", collections: "28.37Cr*****" },
-      { region: "KA", collections: "" },
-      { region: "Tamilnadu", collections: "" },
-      { region: "Kerala", collections: "" },
-      { region: "Hindi", collections: "" },
-      { region: "ROI", collections: "" },
-      { region: "OS", collections: "" },
-      { region: "Total WW Collections", collections: "" }
+      // { region: "KA", collections: "" },
+      // { region: "Tamilnadu", collections: "" },
+      // { region: "Kerala", collections: "" },
+      // { region: "Hindi", collections: "" },
+      // { region: "ROI", collections: "" },
+      // { region: "OS", collections: "" },
+      // { region: "Total WW Collections", collections: "" }
     ],
     RRR: [
         { region: "Nizam", collections: "23.35Cr (35.80Cr Gross)" },
@@ -364,7 +382,7 @@ function Day1() {
         {selectedMovie && (
           <div className="records-table">
             <h2>{selectedMovie}</h2>
-            <p>Day1 records are displayed below.</p>
+            <p></p>
             <table>
               <thead>
                 <tr>

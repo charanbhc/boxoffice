@@ -8,7 +8,7 @@ function ATRDay1() {
   const heroRecords = {
     "WW Day 1 ": {
       "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
-      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","RRR","DEVARA *"],
+      "NTR": ["YAMADONGA","OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
       "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
       "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
       "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
@@ -124,11 +124,11 @@ function ATRDay1() {
         "USA(Premieres+Day1)": []
       },
       "APTG Day 1 Fixtures MB ": {
-        "TOP 1": ["DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU"],
+        "TOP 1": ["DOOKUDU","BUSINESSMAN","AAGADU"],
         "TOP 2": ["SRIMANTUDU"],
         "TOP 3": ["1","BHARATH ANE NENU"],
-        "TOP 4": ["Brahmotsavam","MAHARSHI","SARILERU NEKEVVARU","GUNTUR KAARAM"],
-        "TOP 5": ["SARKARU VARI PAATA"],
+        "TOP 4": ["Brahmotsavam","MAHARSHI","SARILERU NEKEVVARU","GUNTUR KAARAM","SARKARU VARI PAATA"],
+     
         "TOP 7": ["SVSC"],
         "TOP 9": ["SPYDER"],
       },
