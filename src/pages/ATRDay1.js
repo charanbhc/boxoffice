@@ -6,6 +6,7 @@ function ATRDay1() {
   const [selectedHero, setSelectedHero] = useState(""); // Track selected hero
 
   const heroRecords = {
+    
     "WW Day 1 ": {
       "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
       "NTR": ["YAMADONGA","OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
@@ -100,7 +101,7 @@ function ATRDay1() {
     "ATR Ramcharan": {
       "Nizam": ["Magadheera", "RRR"],
       "UA": ["Magadheera", "Nayak", "RRR"],
-      "Ceeded": ["Chitutha", "Magadheera", "Racha","Vinaya Vidheya Rama(7.35Cr(4.26Cr hires))", "RRR"],
+      "Ceeded": ["Chitutha", "Magadheera", "Racha","Vinaya Vidheya Rama", "RRR"],
       "Krishna": ["Racha", "RRR"],
       "Guntur": ["Magadheera", "Racha", "RRR"],
       "Nellore": ["Magadheera", "Racha", "Nayak", "RRR"],
@@ -155,7 +156,7 @@ function ATRDay1() {
   "TOP 6": ["Adipurush"],
   "TOP 13": ["Radhe Shyam"]
 },
-"Industry Hits & Non SSR*": {
+"Industry Hits & Regional IH* Since 2000": {
   //   "Chiranjeevi": [
   //     "Khaidhi",
   //     "Pasivadi Pranam",
@@ -168,20 +169,23 @@ function ATRDay1() {
   //     "Khaidi No. 150*",
   //     "Sye Raa Narasimha Reddy*"
   // ],
-  "Prabhas": ["Baahubali", "Baahubali 2", "Salaar *", "Kalki*"],
-  "Ram Charan": ["Magadheera", "Rangasthalam*", "RRR"],
-    "Mahesh Babu": ["Pokiri", "Dookudu*", "Srimantudu*"],
-    
-    "Pawan Kalyan": ["Gabbar Singh*","Attarintiki Daredi"],
+  "Ram Charan": ["Magadheera", "Rangasthalam *", "RRR"],
+  "Prabhas": ["Baahubali", "Baahubali 2"],
+  "Mahesh Babu": ["Pokiri", "Srimantudu *"],
+  "Allu Arjun": ["Ala Vaikunthapurramuloo *", "Pushpa 2"],
+  "Chiranjeevi": ["Indhra","Khaidi No. 150 *"],
+  "Bala Krishna": ["Narasimha Naidu	"],
+  "Tarun": ["Nuvve Kavali"],
+  "Pawan Kalyan": ["Attarintiki Daredi"],
+  "NTR": ["RRR"],
     // "Bala Krishna": ["Muddula Mavayya", "Samara Simha Reddy", "Narasimha Naidu"],
-   
-    "Allu Arjun": ["Ala Vaikunthapurramuloo*", "Pushpa 2*"],
-   
-    
-    "Ntr": ["RRR"],
+  
+ 
     // "Venkatesh": ["Chanti"],
     // "Mohan Babu": ["Peddha Rayudu"],
-    // "Tarun": ["Nuvve Kavali"]
+  
+ 
+ 
 
   },
     
@@ -192,6 +196,15 @@ function ATRDay1() {
         "Chiranjevi":["Khaidi 150","SyeRaa","Waltair Veerayya"],
         "Ram Charan": ["Rangasthalam","RRR"],
         "NTR": ["RRR","Devara"],
+      },
+      "Overall Breakeven ": {
+        "Mahesh Babu": ["Rajakumarudu", "Okkadu", "Pokiri", "Dookudu", "Businessman", "Srimanthudu"],
+        "NTR": ["Student no 1","Aadi","Simhadri","Yamadonga","Brindavanam"],
+        "Pawan Kalyan": ["GokulamLoSeetha","Suswagatham","TholiPrema","Thammudu","Kushi","GS","AD"],
+        "Ram Charan": ["Magadheera","Rangasthalam"],
+        "Prabhas": ["Varsham","Chatrapathi","Darling","Mr.Perfect","Mirchi","BB1","BB2"],
+        "Allu Arjun": ["Gangotri","Aarya","Desamudhuru","Parugu","Julayi","Race gurram"]
+      
       },
       // "100CR GROSSERS": {
       //   "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
