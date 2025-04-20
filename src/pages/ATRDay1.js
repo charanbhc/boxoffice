@@ -8,17 +8,17 @@ function ATRDay1() {
   const heroRecords = {
     
     "WW Day 1 ": {
-      "Mahesh Babu": ["ATHIDHI","KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
-      "NTR": ["YAMADONGA","OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
-      "Pawan Kalyan": ["JALSA","GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
-      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
+      "Mahesh Babu": ["KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "NTR": ["OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
+      "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
+      "Ram Charan": ["MAGADHEERA","RRR"],
       "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
       "Allu Arjun": ["PUSHPA 2 *"],
       "Chiranjeevi": ["KAIDHI 150*"]
     },
     "APTG Day 1 ": {
       "Mahesh Babu": ["DOOKUDU","BUSINESSMAN","SRIMANTUDU *"],
-      "NTR": ["YAMADONGA","OOSARAVALLI","DAMMU","BADSHAH","JAI LAVA KUSA *","ARAVINDA SAMETHA *","RRR","DEVARA *"],
+      "NTR": ["OOSARAVALLI","DAMMU","BADSHAH","JAI LAVA KUSA *","ARAVINDA SAMETHA *","RRR","DEVARA *"],
       "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
       "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
       "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *"],

@@ -35,17 +35,17 @@ function App() {
 
         <div className="news-block light-effect">
   <a 
-    href="https://www.youtube.com/watch?v=zHiKFSBO_JE&t=1s" 
+    href="https://www.youtube.com/watch?v=SI_PhNII7Mc" 
     target="_blank" 
     rel="noopener noreferrer"
   >
     <img 
-      src="https://img.youtube.com/vi/zHiKFSBO_JE/0.jpg" 
-      alt="Retro Title Teaser Thumbnail" 
+      src="https://img.youtube.com/vi/SI_PhNII7Mc/maxresdefault.jpg"
+      alt="Thumbnail 1" 
       className="thumbnail"
     />
   </a>
-  <h3>#GameChanger Trailer ▶️</h3>
+  <h3>#AA22xA6 ▶️</h3>
   <p>You are in for the biggest game that you have ever seen!🔥</p>
 </div>
 
@@ -53,23 +53,39 @@ function App() {
 
 <div className="news-block light-effect">
   <a 
-    href="https://youtu.be/fNDRSver0uM?si=gmLA626mI0VvOFMZ" 
+    href="https://www.youtube.com/watch?v=2y_DH5gIrCU"
     target="_blank" 
     rel="noopener noreferrer"
   >
     <img 
-      src="https://img.youtube.com/vi/fNDRSver0uM/0.jpg" 
-      alt="GameChanger Trailer Thumbnail" 
+      src="https://img.youtube.com/vi/2y_DH5gIrCU/maxresdefault.jpg"
+      alt="Thumbnail 2" 
       className="thumbnail"
     />
   </a>
-  <h3>#DaakuMaharaaj Trailer ▶️</h3>
+  <h3>#Peddi ▶️</h3>
   <p>Theatres will TREMBLE with MASS MADNESS! ❤️‍🔥</p>
 </div>
 
 
+<div className="news-block light-effect">
+  <a 
+    href="https://www.youtube.com/watch?v=kAtfaaUgDRU "
+    target="_blank" 
+    rel="noopener noreferrer"
+  >
+    <img 
+      src=" https://img.youtube.com/vi/kAtfaaUgDRU/maxresdefault.jpg"
+      alt="Thumbnail 3" 
+      className="thumbnail"
+    />
+  </a>
+  <h3>#HIT3 Trailer ▶️</h3>
+  <p>Taking charge worldwide from 01-May-2025. ❤️‍🔥</p>
+</div>
 
-            <div className="news-block light-effect">
+
+            {/* <div className="news-block light-effect">
               <img 
                 src="https://pbs.twimg.com/media/GgXORvlbcAAcFMF?format=jpg&name=4096x4096" 
                 alt="3" 
@@ -77,13 +93,13 @@ function App() {
               <h3>#సంక్రాంతికివస్తున్నాం on 14th JAN, 2025.</h3>
               <p>Trailer Launch On Jan 6th at Collector Ground, Nizamabad</p>
              
-            </div>
+            </div> */}
             
         
 
 
             <div className="scrolling-titles">
-          <span>Get ready for big surprises, exciting moments and non-stop fun with the Global Star 🔥, #UnstoppablewithNBKS4 Episode 9 Premieres Jan 8th at 7PM on @ahavideoIN.</span>
+          <span>Every re-release of #MaheshBabu is working well, but that doesn't mean it should be taken advantage of. THREE RE-RELEASES LINED UP IN THE SPAN OF A MONTH: #BharatAneNenu – APRIL 26 | #Khaleja – MAY 30 | #Athidi – MAY 31 </span>
         </div>
 
 
