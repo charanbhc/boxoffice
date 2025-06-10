@@ -4,17 +4,18 @@ import "./WW.css";
 import SVSC1 from "../assets/SVSC_APTGDay1.jpeg";
 import SVSC2 from "../assets/SVSC_WW.jpeg"; // Add more images as needed
 
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 function WW() {
   const [selectedMovie, setSelectedMovie] = useState("");
   const [currentSVSC, setCurrentSVSC] = useState(0);
 
-  const SVSCImages = [SVSC1, SVSC2]; // Add more images to this array
+  const SVSCImages = [SVSC1, SVSC2];
 
   const movieCollections = {
     SVSC: [
       { region: "AP Share", collections: "6.78Cr(9.8cr gross)" },
   
-      { region: "ROI", collections: "" },
       { region: "USA", collections: "$564k(3.1Cr Gross)" },
       { region: "Total WW Collections", collections: "12.9Cr Gross" }
     ],
@@ -453,7 +454,7 @@ function WW() {
                       border: "none"
                     }}
                   >
-                    &#8592;
+                    <FaChevronLeft />
                   </button>
 
                   <img
@@ -481,7 +482,7 @@ function WW() {
                       border: "none"
                     }}
                   >
-                    &#8594;
+                    <FaChevronRight />
                   </button>
                 </div>
               </div>
