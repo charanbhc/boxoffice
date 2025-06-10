@@ -10,7 +10,7 @@ function WW() {
         <h1>Contact</h1>
         <p className="twitter-link">
           If you like my work on this Contact me if you have any collabration or any job and please Follow us on Twitter: 
-          <a href="https://x.com/CRIndBoy" target="_blank" rel="noopener noreferrer"> Twitter</a>
+          <a href="https://x.com/TeluguHarry" target="_blank" rel="noopener noreferrer"> Twitter</a>
         </p>
       </div>
     </div>

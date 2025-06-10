@@ -8,7 +8,7 @@ function ATRDay1() {
   const heroRecords = {
     
     "WW Day 1 ": {
-      "Mahesh Babu": ["KHALEJA","DOOKUDU","BUSINESSMAN","AAGADU","SRIMANTUDU *"],
+      "Mahesh Babu": ["KHALEJA","DOOKUDU","BUSINESSMAN","SEETHAMMA VAKITLO SIRIMALLE CHETTU","AAGADU","SRIMANTUDU *"],
       "NTR": ["OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
       "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
       "Ram Charan": ["MAGADHEERA","RRR"],
