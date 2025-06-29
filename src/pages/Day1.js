@@ -1,11 +1,23 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import "./Day1.css";
+import SVSC1 from "../assets/SVSC_APTGDay1.jpeg";
+import SVSC2 from "../assets/SVSC_WW.jpeg"; // Add more images as needed
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
 
 function Day1() {
   const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
+  const [currentSVSC, setCurrentSVSC] = useState(0);
+  const SVSCImages = [SVSC1, SVSC2];
 
   const movieCollections = {
+    SVSC: [
+      { region: "AP Share", collections: "6.78Cr(9.8cr gross)" },
+  
+      { region: "USA", collections: "$564k(3.1Cr Gross)" },
+      { region: "Total WW Collections", collections: "12.9Cr Gross" }
+    ],
     "Daaku Maharaaj": [
       { region: "Nizam", collections: "4.07Cr" },
       { region: "Ceeded", collections: "5.25Cr" },
@@ -16,13 +28,13 @@ function Day1() {
       { region: "Krishna", collections: "1.86Cr" },
       { region: "Nellore", collections: "1.51Cr" },
       { region: "AP-TG Total", collections: "22.31Cr**" },
-      // { region: "KA", collections: "" },
-      // { region: "Tamilnadu", collections: "" },
-      // { region: "Kerala", collections: "" },
-      // { region: "Hindi", collections: "" },
-      // { region: "ROI", collections: "" },
-      // { region: "OS", collections: "" },
-      // { region: "Total WW Collections", collections: "" }
+      { region: "KA", collections: "" },
+      { region: "Tamilnadu", collections: "" },
+      { region: "Kerala", collections: "" },
+      { region: "Hindi", collections: "" },
+      { region: "ROI", collections: "" },
+      { region: "OS", collections: "" },
+      { region: "Total WW Collections", collections: "" }
     ],
     "Game Changer": [
       { region: "Nizam", collections: "8.84Cr" },
@@ -351,6 +363,13 @@ function Day1() {
   const handleSelection = (event) => {
     setSelectedMovie(event.target.value);
   };
+  const nextImage = () => {
+    setCurrentSVSC((prev) => (prev + 1) % SVSCImages.length);
+  };
+
+  const prevImage = () => {
+    setCurrentSVSC((prev) => (prev - 1 + SVSCImages.length) % SVSCImages.length);
+  };
 
   return (
 
@@ -415,6 +434,56 @@ function Day1() {
                 ))}
               </tbody>
             </table>
+            {selectedMovie === "SVSC" && (
+              <div style={{ marginTop: "20px", textAlign: "center" }}>
+                <div style={{ position: "relative", display: "inline-block" }}>
+                  <button
+                    onClick={prevImage}
+                    style={{
+                      position: "absolute",
+                      top: "50%",
+                      left: "-40px",
+                      transform: "translateY(-50%)",
+                      background: "none",
+                      color: "#ffcc00",
+                      fontSize: "2em",
+                      cursor: "pointer",
+                      border: "none"
+                    }}
+                  >
+                    <FaChevronLeft />
+                  </button>
+
+                  <img
+                    src={SVSCImages[currentSVSC]}
+                    alt={`SVSC ${currentSVSC + 1}`}
+                    style={{
+                      width: "100%",
+                      maxWidth: "300px",
+                      borderRadius: "10px",
+                      boxShadow: "0 4px 10px rgba(0,0,0,0.5)"
+                    }}
+                  />
+
+                  <button
+                    onClick={nextImage}
+                    style={{
+                      position: "absolute",
+                      top: "50%",
+                      right: "-40px",
+                      transform: "translateY(-50%)",
+                      background: "none",
+                      color: "#ffcc00",
+                      fontSize: "2em",
+                      cursor: "pointer",
+                      border: "none"
+                    }}
+                  >
+                    <FaChevronRight />
+                  </button>
+                </div>
+              </div>
+            )}
           </div>
         )}
       </div>

@@ -7,12 +7,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App';
-import BoxOffice from './pages/BoxOffice';
+import Archives from './pages/Archives';
 import APTG from './pages/APTG';
-import ATRDay1 from './pages/ATRDay1';
+import ATRDay1 from './pages/RECORDS';
 import Day1 from './pages/Day1';
 import PreReleaseBusiness from './pages/PreReleaseBusiness';
-import WW from './pages/WW';
+import Closing from './pages/Closing';
 import Contact from './pages/Contact';
 const router = createBrowserRouter([
   {
@@ -21,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "BoxOffice",
-    element: <BoxOffice />,
+    element: <Archives />,
   },
   {
     path: "APTG",
@@ -41,7 +41,7 @@ const router = createBrowserRouter([
   },
   {
     path: "WW",
-    element: <WW />,
+    element: <Closing />,
   },
   {
     path: "Contact",

@@ -4,6 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar'; // Import Navbar component
 // import Day1 from './pages/Day1';
 
+
 function App() {
   return (
     <div className="App">
@@ -18,15 +19,7 @@ function App() {
             alt="Telugu Box Office" 
           />
         </div>
-{/*       
-        <div className="button-container">
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-            <Link to="/Day1" className="nav-button">Day 1</Link>
-          </div> */}
+
        
 
         
@@ -88,7 +81,7 @@ function App() {
 
 
             <div className="scrolling-titles">
-          <span>Every re-release of #MaheshBabu is working well, but that doesn't mean it should be taken advantage of. THREE RE-RELEASES LINED UP IN THE SPAN OF A MONTH: #BharatAneNenu – APRIL 26 | #Khaleja – MAY 30 | #Athidi – MAY 31 </span>
+          <span>I'm Dedicating This Award To All My Fans 🙏 I Will Make My Fans More More Mad Proud 🔥 #FirstGaddarAwardForAA || #Akhanda2 Teaser Trending #1 in Youtube from 5 Days++.....RECORD IN TFI Senior Hero's💥💥💥💥</span>
         </div>
 
 
