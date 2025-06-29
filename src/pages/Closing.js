@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import "./Closing.css";
-import SVSC1 from "../assets/SVSC_APTGDay1.jpeg";
-import SVSC2 from "../assets/SVSC_WW.jpeg"; // Add more images as needed
 
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+
+
 
 function WW() {
   const [selectedMovie, setSelectedMovie] = useState("");
-  const [currentSVSC, setCurrentSVSC] = useState(0);
+  
 
-  const SVSCImages = [SVSC1, SVSC2];
+ 
 
   const movieCollections = {
     SVSC: [
@@ -23,16 +22,9 @@ function WW() {
   };
   const handleSelection = (event) => {
     setSelectedMovie(event.target.value);
-    setCurrentSVSC(0); // Reset to first image when new movie is selected
+  
   };
 
-  const nextImage = () => {
-    setCurrentSVSC((prev) => (prev + 1) % SVSCImages.length);
-  };
-
-  const prevImage = () => {
-    setCurrentSVSC((prev) => (prev - 1 + SVSCImages.length) % SVSCImages.length);
-  };
 
   return (
     <div>
@@ -71,30 +63,7 @@ function WW() {
                 </tr>
               </thead>
               <tbody>
-                {movieCollections[selectedMovie].map((record, index) => (
-                  <tr key={index}>
-                    <td
-                      style={
-                        record.region === "AP-TG Total" ||
-                        record.region === "Total WW Collections"
-                          ? { fontWeight: "bold", fontSize: "1.4em" }
-                          : {}
-                      }
-                    >
-                      {record.region}
-                    </td>
-                    <td
-                      style={
-                        record.region === "AP-TG Total" ||
-                        record.region === "Total WW Collections"
-                          ? { fontWeight: "bold", fontSize: "1.4em" }
-                          : {}
-                      }
-                    >
-                      {record.collections}
-                    </td>
-                  </tr>
-                ))}
+             
               </tbody>
             </table>
 
