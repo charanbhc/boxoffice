@@ -1,9 +1,24 @@
 import React, { useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "./PreReleaseBusiness.css";
 
 function PreReleaseBusiness() {
-  const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Read the movie query param
+  const queryParams = new URLSearchParams(location.search);
+  const initialMovie = queryParams.get("movie") || "";
+
+  const [selectedMovie, setSelectedMovie] = useState(initialMovie);
+
+  // Optional: update URL when selection changes
+  const handleSelection = (event) => {
+    const newValue = event.target.value;
+    setSelectedMovie(newValue);
+    navigate(`?movie=${encodeURIComponent(newValue)}`);
+  };
 
   const movieCollections = {
 
@@ -314,18 +329,10 @@ function PreReleaseBusiness() {
     ],
   };
   
-  console.log(movieCollections);
-  
-
-  const handleSelection = (event) => {
-    setSelectedMovie(event.target.value);
-  };
-
+ 
   return (
-
-<div>
-  
-  <Navbar />
+    <div>
+      <Navbar />
       <div className="movies-container">
         <div className="dropdown-container">
           <label htmlFor="movie-select" className="dropdown-label">
@@ -348,7 +355,7 @@ function PreReleaseBusiness() {
           </select>
         </div>
 
-        {selectedMovie && (
+        {selectedMovie && movieCollections[selectedMovie] && (
           <div className="records-table">
             <h2>{selectedMovie}</h2>
             <p>Pre Release Business</p>
@@ -392,4 +399,3 @@ function PreReleaseBusiness() {
 }
 
 export default PreReleaseBusiness;
-

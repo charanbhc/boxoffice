@@ -1,9 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "./RECORDS.css";
 
 function ATRDay1() {
-  const [selectedHero, setSelectedHero] = useState(""); // Track selected hero
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  // Get initial value from URL query
+  const queryParams = new URLSearchParams(location.search);
+  const initialCategory = queryParams.get("category") || "";
+
+  const [selectedHero, setSelectedHero] = useState(initialCategory);
 
   const heroRecords = {
     
@@ -226,8 +234,17 @@ function ATRDay1() {
   };
 
   const handleSelection = (event) => {
-    setSelectedHero(event.target.value);
+    const selected = event.target.value;
+    setSelectedHero(selected);
+    navigate(`?category=${encodeURIComponent(selected)}`); // Update the URL
   };
+
+  useEffect(() => {
+    // When the URL changes manually, update selection
+    const query = new URLSearchParams(location.search);
+    const category = query.get("category") || "";
+    setSelectedHero(category);
+  }, [location.search]);
 
   return (
     <div>
@@ -235,7 +252,7 @@ function ATRDay1() {
       <div className="movies-container">
         <div className="dropdown-container">
           <label htmlFor="hero-select" className="dropdown-label">
-            Select a hero:
+            Select a category:
           </label>
           <select
             id="hero-select"
@@ -254,7 +271,7 @@ function ATRDay1() {
           </select>
         </div>
 
-        {selectedHero && (
+        {selectedHero && heroRecords[selectedHero] && (
           <div className="records-table">
             <h2>{selectedHero}</h2>
             <p>Box Office data is compiled from various sources.</p>
@@ -267,11 +284,11 @@ function ATRDay1() {
                 </tr>
               </thead>
               <tbody>
-                {Object.keys(heroRecords[selectedHero]).map((region) => (
+                {Object.entries(heroRecords[selectedHero]).map(([region, movies]) => (
                   <tr key={region}>
                     <td>{region}</td>
-                    <td>{heroRecords[selectedHero][region].join(", ")}</td>
-                    <td>{heroRecords[selectedHero][region].length}</td>
+                    <td>{movies.join(", ")}</td>
+                    <td>{movies.length}</td>
                   </tr>
                 ))}
               </tbody>

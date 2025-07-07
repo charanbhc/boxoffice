@@ -1,9 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "./Archives.css";
 
 function BoxOffice() {
-  const [selectedCategory, setSelectedCategory] = useState(""); // Track selected category
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const queryParams = new URLSearchParams(location.search);
+  const initialCategory = queryParams.get("category") || "";
+
+  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
 
   const categories = {
     "APTG Day 1 Since 2007": [
@@ -589,8 +596,18 @@ function BoxOffice() {
   };
 
   const handleSelection = (event) => {
-    setSelectedCategory(event.target.value);
+    const selected = event.target.value;
+    setSelectedCategory(selected);
+    navigate(`/boxoffice?category=${encodeURIComponent(selected)}`);
   };
+
+  useEffect(() => {
+    const queryParams = new URLSearchParams(location.search);
+    const paramCategory = queryParams.get("category") || "";
+    if (paramCategory !== selectedCategory) {
+      setSelectedCategory(paramCategory);
+    }
+  }, [location.search, selectedCategory]);  
 
   return (
     <div>
@@ -617,7 +634,7 @@ function BoxOffice() {
           </select>
         </div>
 
-        {selectedCategory && (
+        {selectedCategory && categories[selectedCategory] && (
           <div className="records-table">
             <h2>{selectedCategory}</h2>
             <p>Box Office data is compiled from various sources.</p>
@@ -632,18 +649,16 @@ function BoxOffice() {
               </thead>
               <tbody>
                 {categories[selectedCategory].map((movie, index) => {
-                  const parts = movie.split(" "); // Splitting movie details
-                  const title = parts.slice(0, -2).join(" "); // Extracting title
-                  const year = parts[parts.length - 2]; // Extracting year
-                  const collection = parts[parts.length - 1]; // Extracting collection
+                  const parts = movie.split(" ");
+                  const title = parts.slice(0, -2).join(" ");
+                  const year = parts[parts.length - 2];
+                  const collection = parts[parts.length - 1];
 
                   return (
                     <tr key={index}>
                       <td>{index + 1}</td>
                       <td>
-                        <div className="multi-line-content">
-                          {title}
-                        </div>
+                        <div className="multi-line-content">{title}</div>
                       </td>
                       <td>{year}</td>
                       <td>{collection}</td>

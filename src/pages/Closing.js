@@ -1,30 +1,37 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "./Closing.css";
 
-
-
-
 function WW() {
-  const [selectedMovie, setSelectedMovie] = useState("");
-  
+  const location = useLocation();
+  const navigate = useNavigate();
 
- 
+  const queryParams = new URLSearchParams(location.search);
+  const initialMovie = queryParams.get("movie") || "";
+
+  const [selectedMovie, setSelectedMovie] = useState(initialMovie);
 
   const movieCollections = {
     SVSC: [
-      { region: "AP Share", collections: "6.78Cr(9.8cr gross)" },
-  
-      { region: "USA", collections: "$564k(3.1Cr Gross)" },
-      { region: "Total WW Collections", collections: "12.9Cr Gross" }
+      { region: "AP Share", collections: "6.78Cr (9.8Cr Gross)" },
+      { region: "USA", collections: "$564K (3.1Cr Gross)" },
+      { region: "Total WW Collections", collections: "12.9Cr Gross" },
     ],
-   
-  };
-  const handleSelection = (event) => {
-    setSelectedMovie(event.target.value);
-  
+    // You can add more movies here in same format
   };
 
+  const handleSelection = (event) => {
+    const selected = event.target.value;
+    setSelectedMovie(selected);
+    navigate(`?movie=${encodeURIComponent(selected)}`);
+  };
+
+  useEffect(() => {
+    const query = new URLSearchParams(location.search);
+    const movie = query.get("movie") || "";
+    setSelectedMovie(movie);
+  }, [location.search]);
 
   return (
     <div>
@@ -51,7 +58,7 @@ function WW() {
           </select>
         </div>
 
-        {selectedMovie && (
+        {selectedMovie && movieCollections[selectedMovie] && (
           <div className="records-table">
             <h2>{selectedMovie}</h2>
             <p>World Wide</p>
@@ -63,11 +70,30 @@ function WW() {
                 </tr>
               </thead>
               <tbody>
-             
+                {movieCollections[selectedMovie].map((record, index) => (
+                  <tr key={index}>
+                    <td
+                      style={
+                        record.region.includes("Total")
+                          ? { fontWeight: "bold", fontSize: "1.2em" }
+                          : {}
+                      }
+                    >
+                      {record.region}
+                    </td>
+                    <td
+                      style={
+                        record.region.includes("Total")
+                          ? { fontWeight: "bold", fontSize: "1.2em" }
+                          : {}
+                      }
+                    >
+                      {record.collections}
+                    </td>
+                  </tr>
+                ))}
               </tbody>
             </table>
-
-          
           </div>
         )}
       </div>

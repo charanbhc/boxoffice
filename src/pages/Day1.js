@@ -1,13 +1,19 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import "./Day1.css";
 import SVSC1 from "../assets/SVSC_APTGDay1.jpeg";
-import SVSC2 from "../assets/SVSC_WW.jpeg"; // Add more images as needed
+import SVSC2 from "../assets/SVSC_WW.jpeg";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
-
 function Day1() {
-  const [selectedMovie, setSelectedMovie] = useState(""); // Default selection
+  const location = useLocation();
+  const navigate = useNavigate();
+
+  const queryParams = new URLSearchParams(location.search);
+  const initialMovie = queryParams.get("movie") || "";
+
+  const [selectedMovie, setSelectedMovie] = useState(initialMovie);
   const [currentSVSC, setCurrentSVSC] = useState(0);
   const SVSCImages = [SVSC1, SVSC2];
 
@@ -361,8 +367,17 @@ function Day1() {
   };
 
   const handleSelection = (event) => {
-    setSelectedMovie(event.target.value);
+    const selected = event.target.value;
+    setSelectedMovie(selected);
+    navigate(`?movie=${encodeURIComponent(selected)}`);
   };
+
+  useEffect(() => {
+    const query = new URLSearchParams(location.search);
+    const movie = query.get("movie") || "";
+    setSelectedMovie(movie);
+  }, [location.search]);
+
   const nextImage = () => {
     setCurrentSVSC((prev) => (prev + 1) % SVSCImages.length);
   };
@@ -372,10 +387,8 @@ function Day1() {
   };
 
   return (
-
-<div>
-  
-  <Navbar />
+    <div>
+      <Navbar />
       <div className="movies-container">
         <div className="dropdown-container">
           <label htmlFor="movie-select" className="dropdown-label">
@@ -398,10 +411,9 @@ function Day1() {
           </select>
         </div>
 
-        {selectedMovie && (
+        {selectedMovie && movieCollections[selectedMovie] && (
           <div className="records-table">
             <h2>{selectedMovie}</h2>
-            <p></p>
             <table>
               <thead>
                 <tr>
@@ -414,7 +426,7 @@ function Day1() {
                   <tr key={index}>
                     <td
                       style={
-                        record.region === "AP-TG Total" || record.region === "Total WW Collections"
+                        record.region.includes("Total")
                           ? { fontWeight: "bold", fontSize: "1.4em" }
                           : {}
                       }
@@ -423,7 +435,7 @@ function Day1() {
                     </td>
                     <td
                       style={
-                        record.region === "AP-TG Total" || record.region === "Total WW Collections"
+                        record.region.includes("Total")
                           ? { fontWeight: "bold", fontSize: "1.4em" }
                           : {}
                       }
@@ -434,6 +446,7 @@ function Day1() {
                 ))}
               </tbody>
             </table>
+
             {selectedMovie === "SVSC" && (
               <div style={{ marginTop: "20px", textAlign: "center" }}>
                 <div style={{ position: "relative", display: "inline-block" }}>
