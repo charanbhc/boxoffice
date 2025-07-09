@@ -16,32 +16,49 @@ function ATRDay1() {
   const heroRecords = {
     
     "WW Day 1 ": {
-      "Mahesh Babu": ["KHALEJA","DOOKUDU","BUSINESSMAN","SEETHAMMA VAKITLO SIRIMALLE CHETTU","AAGADU","SRIMANTUDU *"],
-      "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
-      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *","KALKI*"],
-      "NTR": ["OOSARAVALLI","BADSHAH","RRR","DEVARA *"],
-      "Ram Charan": ["MAGADHEERA","ORANGE","RRR"],
-      "Chiranjeevi": ["KAIDHI 150*"],
-      "Allu Arjun": ["PUSHPA 2 *"],
-     
+
+        "Mahesh Babu": ["Khaleja", "Dookudu", "Businessman", "SVSC", "Aagadu", "Srimanthudu *"],
+        "Pawan Kalyan": ["Gabbar Singh", "CMGR", "Attarintiki Daredi", "SGS *", "Agnyathavasi *"],
+        "Prabhas": ["Baahubali", "Baahubali 2", "Saaho *", "Salaar *", "Kalki*"],
+        "NTR": ["Oosaravalli", "Badshah", "RRR", "Devara *"],
+        "Ram Charan": ["Magadheera", "Orange", "RRR"],
+        "Chiranjeevi": ["Kaidhi 150*"],
+        "Allu Arjun": ["Pushpa 2 *"]
+      
     },
-    "APTG Day 1 ": {
-      "Mahesh Babu": ["DOOKUDU","BUSINESSMAN","SRIMANTUDU *"],
-      "NTR": ["OOSARAVALLI","DAMMU","BADSHAH","JAI LAVA KUSA *","ARAVINDA SAMETHA *","RRR","DEVARA *"],
-      "Pawan Kalyan": ["GABBAR SINGH","CAMERAMAN GANGATHO RAMBABU","ATTARINTIKI DAREDI","SARDAR GABBAR SINGH *","AGNATHAVASI *"],
-      "Ram Charan": ["MAGADHEERA","RACHA","RRR"],
-      "Prabhas": ["BAAHUBALI","BAAHUBALI 2","SAAHO *","SALAAR *"],
-      "Allu Arjun": ["PUSHPA 2 *"],
-      "Chiranjeevi": ["KAIDHI 150","SYE RAA *"]
-    },
+  "APTG Day 1": {
+  "NTR": ["Oosaravalli", "Dammu", "Badshah", "JLK *", "ASVR *", "RRR", "Devara *"],
+  "Pawan Kalyan": ["Gabbar Singh", "CMGR", "Attarintiki Daredi", "SGS *", "Agnyathavasi *"],
+  "Ram Charan": ["Magadheera", "Racha", "Rrr"],
+  "Mahesh Babu": ["Dookudu", "Businessman", "Srimanthudu *"],
+  "Prabhas": ["Baahubali", "Baahubali 2", "Saaho *", "Salaar *"],
+  "Allu Arjun": ["Pushpa 2 *"],
+  "Chiranjeevi": ["Kaidhi 150", "Sye Raa *"]
+},
+"All Time Top3 ": {
+  "Mahesh Babu": ["Okkadu", "Pokiri", "Dookudu", "Businessman", "Srimanthudu", "SLN"],
+  "Prabhas": ["Baahubali", "Baahubali 2", "Saaho", "Salaar", "Kalki"],
+  "NTR": ["Aadi", "Simhadri", "Yamadonga", "JG", "RRR"],
+  "Pawan Kalyan": ["Kushi", "Jalsa", "Gabbar Singh", "Attarintiki Daredi"],
+  "Ram Charan": ["Magadheera", "Racha", "Rangasthalam", "RRR"],
+  "Allu Arjun": ["Ala Vaikunthapurramuloo", "Pushpa 2"]
+},
+  "All Time Top3 (Non SSR)": {
+    "Mahesh Babu": ["Okkadu", "Pokiri", "Dookudu", "Businessman", "Srimanthudu", "BAN", "Maharshi", "SLN"],
+    "Prabhas": ["Baahubali", "Baahubali 2", "Saaho", "Salaar", "Kalki"],
+    "NTR": ["Aadi", "Simhadri", "Yamadonga", "JG", "RRR"],
+    "Pawan Kalyan": ["Kushi", "Jalsa", "Gabbar Singh", "Attarintiki Daredi"],
+    "Ram Charan": ["Magadheera", "Racha", "Rangasthalam", "RRR"],
+    "Allu Arjun": ["Ala Vaikunthapurramuloo", "Pushpa 2"]
+  },
     "$1M Movies ": {
-      "Mahesh Babu": ["Dookudu","SVSC","1Nenokkadine","Aagadu","Srimanthudu","Brahmotsavam","Spyder","Bharat Ane Nenu","Maharshi","Sarileru Neekevvaru","Sarkaru Vaari Paata","Guntur Karaam"],
+      "Mahesh Babu": ["Dookudu","SVSC","1","Aagadu","Srimanthudu","Brahmotsavam","Spyder","BAN","Maharshi","SLN","SVP","Guntur Karaam"],
       "Nani": ["Eega","Bhale Bhale Magadivoi","Nenu Local","Ninnu Kori","MCA","Jersey","Ante Sundaraniki","Dasara","Hi Nanna","Saripodhaa Sanivaaram"],
       "NTR": ["Baadshah","Temper","Nannaku Prematho","Janatha Garage","Jai Lava Kusa","Aravindha Sametha","RRR","Devara"],
       "Pawan Kalyan": ["Gabbar Singh","Attharintiki Dharedi","Sardaar Gabbarsingh","Katamarayudu","Agnyathavaasi","Bheemla Naayak","Bro"],
       "Prabhas": ["Baahubali","Baahubali 2","Saaho","Radhe Shyam","Adipurush","Salaar","Kalki"],
-      "Ram Charan": ["Dhruva","Rangasthalam","RRR"],
       "Allu Arjun": ["Race Gurram","S/O Satyamurthy","Duvvada Jagannadham","Ala Vaikunthapuramuloo","Pushpa","Pushpa 2"],
+      "Ram Charan": ["Dhruva","Rangasthalam","RRR"],
     },
     "Nizam Day 1": {
       "Mahesh Babu":["Dookudu", "Businessman", "Aagadu", "Srimanthudu*", "Maharshi*", "SVP*"],
