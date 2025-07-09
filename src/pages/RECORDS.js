@@ -43,7 +43,7 @@ function ATRDay1() {
   "Ram Charan": ["Magadheera", "Racha", "Rangasthalam", "RRR"],
   "Allu Arjun": ["Ala Vaikunthapurramuloo", "Pushpa 2"]
 },
-  "All Time Top3 (Non SSR)": {
+  "All Time Top3 - Non SSR": {
     "Mahesh Babu": ["Okkadu", "Pokiri", "Dookudu", "Businessman", "Srimanthudu", "BAN", "Maharshi", "SLN"],
     "Prabhas": ["Baahubali", "Baahubali 2", "Saaho", "Salaar", "Kalki"],
     "NTR": ["Aadi", "Simhadri", "Yamadonga", "JG", "RRR"],
